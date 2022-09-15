@@ -30,7 +30,11 @@
 Mijn keuze voor het gebruiken van een specifieke taal met onderbouwing doormiddel van [deze website](https://www.alidaschool.com/blog/react-vue-or-angular-the-best-javascript-framework-to-learn-to-get-a-front-end-job#:~:text=If%20you're%20a%20beginner%20developer%20or%20junior%20developer%2C%20I,native%20to%20build%20mobile%20apps.)
   
   
-  *Backend taal:*
+  *Backend taal:* </br>
+  Mijn keuze voor het gebruiken van een specifieke taal voor de backend.
+  
+  ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
+  
   </details>
     
 ## Leeruitkomst 2: Software kwaliteit
