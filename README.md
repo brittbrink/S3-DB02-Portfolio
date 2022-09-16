@@ -27,11 +27,12 @@
 **Full-stack**: Je ontwerpt en bouwt een full-stack applicatie met behulp van algemeen geaccepteerde front-end (Javascript-gebaseerd raamwerk) en back-end technieken (bijv. Object Relational Mapping) waarbij relevante communicatieprotocollen worden gekozen en geïmplementeerd en asynchrone communicatieproblemen worden aangepakt.
   
 *Frontend taal:* </br>
-Mijn keuze voor het gebruiken van een specifieke taal met onderbouwing doormiddel van [deze website](https://www.alidaschool.com/blog/react-vue-or-angular-the-best-javascript-framework-to-learn-to-get-a-front-end-job#:~:text=If%20you're%20a%20beginner%20developer%20or%20junior%20developer%2C%20I,native%20to%20build%20mobile%20apps.)
+Voor de frontend heb ik de taal React gekozen, dit omdat het makkelijker te leren is als angular. Ik heb zelf nog maar een jaartje ervaring met coderen in C# (backend) en voor de frontend html/css. Ik wilde niet een te grootte stap vooruit nemen en mezelf in de war laten komen door alle talen. Ook kan ik vanauit React snel overswitchen naar een mobile app maken, zo kan ik mezelf uitdagen binnen de taal React.
+Mijn keuze voor het gebruiken van een specifieke taal met onderbouwing is gemaakt doormiddel van [deze website](https://www.alidaschool.com/blog/react-vue-or-angular-the-best-javascript-framework-to-learn-to-get-a-front-end-job#:~:text=If%20you're%20a%20beginner%20developer%20or%20junior%20developer%2C%20I,native%20to%20build%20mobile%20apps.).
   
   
-  *Backend taal:* </br>
-  Mijn keuze voor het gebruiken van een specifieke taal voor de backend.
+*Backend taal:* </br>
+Mijn keuze voor het gebruiken van een specifieke taal voor de backend.
   
   ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
   
