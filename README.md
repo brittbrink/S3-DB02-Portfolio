@@ -51,12 +51,47 @@ Mijn keuze voor het gebruiken van een specifieke taal voor de backend is gemaakt
    
 ## Leeruitkomst 3: Agile methode
    <details>
-   <summary><h4> volgende </h4></summary>
+   <summary><h4> Agile </h4></summary>
 
 **Leeruitkomst**: Je **kiest** en implementeert de meest geschikte agile software ontwikkelmethode voor jouw softwareproject. 
 
 **Kies**: Je bent op de hoogte van de meest populaire agile methoden en hun onderliggende agile principes. Je keuze voor een methode is gemotiveerd en gebaseerd op welomschreven selectiecriteria en contextanalyses.
+  
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Z9QbYZh1YXY/0.jpg)](https://www.youtube.com/watch?v=Z9QbYZh1YXY)
+  
+*Agile* = een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen.
 
+Beter software ontwikkelen door de items aan de linkerkant meer te waarderen dan de items aan de rechterkant:
+  + Individuen en interacties boven processen en tools
+  + Werkende software boven uitgebreide documentatie
+  + Klantsamenwerking boven contractonderhandeling
+  + Reageren op verandering boven het volgen van een plan
+  
+Er zijn 12 principes die de waarden ondersteunen:
+  1. Onze hoogste prioriteit is om de klant tevreden te stellen door vroege en continue levering van waardevolle software.
+  2. Verwelkom veranderende vereisten, zelfs in de late ontwikkeling. Agile processen benutten verandering voor het concurrentievoordeel van de klant.
+  3. Regelmatig werkende software leveren, van een paar weken tot een paar maanden, met een voorkeur voor de kortere termijn.
+  4. Ondernemers en ontwikkelaars moeten gedurende het hele project dagelijks samenwerken.
+  5. Bouw projecten rond gemotiveerde individuen. Geef ze de omgeving en ondersteuning die ze nodig hebben en vertrouw erop dat ze de klus klaren.
+  6. De meest efficiënte en effectieve methode om informatie naar en binnen een ontwikkelteam over te brengen, is een face-to-face gesprek.
+  7. Werkende software is de belangrijkste maatstaf voor vooruitgang.
+  8. Agile processen bevorderen duurzame ontwikkeling. De sponsors, ontwikkelaars en gebruikers moeten in staat zijn om voor onbepaalde tijd een constant tempo aan te houden.
+  9. Continu aandacht voor technische uitmuntendheid en een goed ontwerp verbetert de wendbaarheid.
+  10. Eenvoud - de kunst van het maximaliseren van de hoeveelheid niet gedaan werk - is essentieel.
+  11. De beste architecturen, vereisten en ontwerpen komen voort uit zelforganiserende teams.
+  12. Met regelmatige tussenpozen denkt het team na over hoe het effectiever kan, stemt het vervolgens af en past hun gedrag daarop aan.
+  
+een eindproduct wat je stapsgewijs oplevert, elke keer verbeter je je product door kleine releases. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren. 
+  
+  
+  
+  [bron 1](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx). 
+  [bron 2](https://www.agilealliance.org/agile101/). 
+  [bron 3](https://en.wikipedia.org/wiki/Agile_software_development). 
+  [bron 4](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.). 
+  
+  ![alt text](https://targettrend.com/wp-content/uploads/2021/03/Agile-Methodology-1.png)
+  
    </details>
     
 ## Leeruitkomst 4: CI-CD
