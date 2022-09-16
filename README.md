@@ -32,7 +32,8 @@ Mijn keuze voor het gebruiken van een specifieke taal met onderbouwing is gemaak
   
   
 *Backend taal:* </br>
-Mijn keuze voor het gebruiken van een specifieke taal voor de backend.
+Mijn keuze voor het gebruiken van een specifieke taal voor de backend is gemaakt doormiddel van [deze website](https://hackr.io/blog/c-sharp-vs-java#:~:text=Java%20is%20class%2Dbased%20and,oriented%20languages%20with%20strong%20communities.).
+
   
   ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
   
