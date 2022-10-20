@@ -36,17 +36,23 @@ Voor de frontend heb ik de taal React gekozen, dit omdat het makkelijker te lere
 [^2]: [bron: stackoverflow](https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies)
 
 *Backend taal:* </br>
-Voor de backend heb ik de taal JavaScript gekozen. In ons groepsproject hebben wij besloten dit te gaan doen, ik wilde ervoor zorgen dat ik extra ervaring op kon doen binnen JavaScript en heb daarom ook in mijn individuele project ervoor gekozen om in JavaScript te werken.[^2][^3]
+Voor de backend heb ik de taal JavaScript gekozen. In ons groepsproject hebben wij besloten dit te gaan doen, ik wilde ervoor zorgen dat ik extra ervaring op kon doen binnen JavaScript en heb daarom ook in mijn individuele project ervoor gekozen om in JavaScript te werken. Ook developers kiezen JavaScript als meest gebruikte programmeer taal.[^2][^3]
 
 
 [^3]: [bron: hackr.io](https://hackr.io/blog/c-sharp-vs-java#:~:text=Java%20is%20class%2Dbased%20and,oriented%20languages%20with%20strong%20communities.)
+
+ ```
+  DOT framework method:
+  - Survey
+  - Focus group
+  ```
 
 
    <!-- gifje -->
   ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
   
-  </details>
-  <details>
+</details>
+<details>
   <summary><h4> Wat is een ORM? </h4></summary>
 
 ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom, in JavaScript gebruik ik hiervoor Hibernate.
@@ -116,6 +122,18 @@ Er zijn 12 principes die de waarden ondersteunen:
   <!-- image -->
   ![alt text](https://targettrend.com/wp-content/uploads/2021/03/Agile-Methodology-1.png)
   
+   </details>
+   <details>
+   <summary><h4> Welke agile methodes zijn er? </h4></summary>
+   
+   - Scrum
+   - Lean Software Development
+   - Scaled Agile Framework (SAFe)
+   
+   [^7]
+   
+   
+   
    </details>
     
 ## Leeruitkomst 4: CI-CD
