@@ -58,12 +58,13 @@ Voor de backend heb ik de taal JavaScript gekozen. In ons groepsproject hebben w
 Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter gekomen dat ik onderzoek moest gaan doen naar ORM's. Ik wist nog niet goed wat dit was, maar heb er wel van geleerd nadat ik de forms teruggekoppeld kreeg. Zo heb ik uit de forms de functie van een ORM weten te halen.
 
  <h5> Wat is een ORM? </h5>
- Een ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom. Ik heb dit nog bevestigt door research te doen op het internet. Een ORM convert gegevens tussen systemen met behulp van programmeertalen[^4]. Bij objectgeoriënteerd programmeren kun je gebruik maken van een ORM library, dit zorgt ervoor dat je bijvoorbeeld niet je hele query hoeft uittetypen met SQL en dus tijd bespaart[^5]. Er zijn verschillende ORM libraries voor verschillende programmeertalen, elke programmeertaal heeft een bijpassende ORM library: 
+ Een ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom. Ik heb dit nog bevestigt door research te doen op het internet. Een ORM convert gegevens tussen systemen met behulp van programmeertalen[^4]. Bij objectgeoriënteerd programmeren kun je gebruik maken van een ORM library, dit zorgt ervoor dat je bijvoorbeeld niet je hele query hoeft uittetypen met SQL en dus tijd bespaart[^5]. 
+ 
+ Er zijn verschillende ORM libraries voor verschillende programmeertalen, elke programmeertaal heeft een bijpassende ORM library: 
  
 - Java: Hibernate
 - C#: NHibernate of Entity Framework
-- Python: SQLAlchemy [^5]
-
+- Python: SQLAlchemy[^5]
 
 ```
   DOT framework method:
@@ -71,9 +72,9 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
   - Literature study
   ```
   
-  [^4]: [bron: wikipedia ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping.)
-  [^5]: [bron: stackoverflow ORM](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one.) 
-  
+ [^4]: [bron: stackoverflow ORM](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one.) </br>
+ [^5]: [bron: wikipedia ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping.) </br>
+
   </details>
     
 ## Leeruitkomst 2: Software kwaliteit
@@ -107,13 +108,13 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
   - Community research
   ```
   
-*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^6]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^7]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^8]. 
+*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^5]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^6]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^7]. 
 
 Beter software ontwikkelen door de items aan de linkerkant meer te waarderen dan de items aan de rechterkant:
   + Individuen en interacties boven processen en tools
   + Werkende software boven uitgebreide documentatie
   + Klantsamenwerking boven contractonderhandeling
-  + Reageren op verandering boven het volgen van een plan[^9]
+  + Reageren op verandering boven het volgen van een plan[^8]
   
 Er zijn 12 principes die de waarden ondersteunen:
   1. Onze hoogste prioriteit is om de klant tevreden te stellen door vroege en continue levering van waardevolle software.
@@ -131,10 +132,10 @@ Er zijn 12 principes die de waarden ondersteunen:
   
   
     
-  [^6]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
-  [^7]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
-  [^8]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
-  [^9]: [bron: wikipedia agile](https://en.wikipedia.org/wiki/Agile_software_development) </br>
+  [^5]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
+  [^6]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
+  [^7]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
+  [^8]: [bron: wikipedia agile](https://en.wikipedia.org/wiki/Agile_software_development) </br>
   
   
   <!-- image -->
@@ -144,11 +145,19 @@ Er zijn 12 principes die de waarden ondersteunen:
    <details>
    <summary><h4> Welke agile methodes zijn er? </h4></summary>
    
-   - Scrum
-   - Lean Software Development
-   - Scaled Agile Framework (SAFe)
+ Met verschillende methodes kan je op de agile manier werken. Hier zijn 3 voorbeelden van methodes:
+ 
+ - <h5>Kanban</h5>
+De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of signboard". Bij Kanban gaat het erom om et project "just in time" in te leveren. Dit gebeurt met behulp van een Kanban-board, dat in kolommen is verdeeld om het proces van de software ontwikkeling te laten zien. Zo ziet het team elke ontwikkelingsfase en kunnen zo hun voortgang inschatten om de taken "just in time" in te leveren. Scrum werkt hierbij op dezelfde manier maar dan leveren ze op in sprints.
+ 
+ - <h5>Extreme Programming (XP) </h5>
+ Extreme Programming is een methode die de nadruk legt op teamwork, communicatie en feedback. Het richt zich op constante ontwikkeling en klanttevredenheid. Net als scrum maakt deze methode ook gebruik van sprints, dit zorgt voor een productief team en zeer efficiënte omgeving. Dit helpt de ontwikkelaars om veranderingen in de eisen van de klant te accepteren. Bij Extreme Programming wordt het project vanaf de beginfase getest door feedback te verzamelen die de output van het systeem bevordert. Dit biedt ook opties om gemakkelijk eventuele klantvereisten te implementeren.
+ 
+ - <h5>Scaled Agile Framework (SAFe)</h5>
    
-   [^8]
+ 
+ 
+   [^7]
    
    
    
