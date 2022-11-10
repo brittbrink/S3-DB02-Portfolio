@@ -33,7 +33,7 @@ Voor de frontend heb ik de taal React gekozen, dit omdat het makkelijker te lere
 
 
 [^1]: [bron: alidaschool](https://www.alidaschool.com/blog/react-vue-or-angular-the-best-javascript-framework-to-learn-to-get-a-front-end-job#:~:text=If%20you're%20a%20beginner%20developer%20or%20junior%20developer%2C%20I,native%20to%20build%20mobile%20apps.)
-[^2]: [bron: stackoverflow](https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies)
+[^2]: [bron: stackoverflow survey](https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies)
 
 *Backend taal:* </br>
 Voor de backend heb ik de taal JavaScript gekozen. In ons groepsproject hebben wij besloten dit te gaan doen, ik wilde ervoor zorgen dat ik extra ervaring op kon doen binnen JavaScript en heb daarom ook in mijn individuele project ervoor gekozen om in JavaScript te werken. Ook developers kiezen JavaScript als meest gebruikte programmeer taal.[^2][^3]
@@ -53,9 +53,27 @@ Voor de backend heb ik de taal JavaScript gekozen. In ons groepsproject hebben w
   
 </details>
 <details>
-  <summary><h4> Wat is een ORM? </h4></summary>
+  <summary><h4> Welke ORM is het meest geschikt voor mijn project? </h4></summary>
 
-ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom, in JavaScript gebruik ik hiervoor Hibernate.
+Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter gekomen dat ik onderzoek moest gaan doen naar ORM's. Ik wist nog niet goed wat dit was, maar heb er wel van geleerd nadat ik de forms teruggekoppeld kreeg. Zo heb ik uit de forms de functie van een ORM weten te halen.
+
+ <h5> Wat is een ORM? </h5>
+ Een ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom. Ik heb dit nog bevestigt door research te doen op het internet. Een ORM convert gegevens tussen systemen met behulp van programmeertalen[^4]. Bij objectgeoriënteerd programmeren kun je gebruik maken van een ORM library, dit zorgt ervoor dat je bijvoorbeeld niet je hele query hoeft uittetypen met SQL en dus tijd bespaart[^5]. Er zijn verschillende ORM libraries voor verschillende programmeertalen, elke programmeertaal heeft een bijpassende ORM library: 
+ 
+- Java: Hibernate
+- C#: NHibernate of Entity Framework
+- Python: SQLAlchemy [^5]
+
+
+```
+  DOT framework method:
+  - Survey
+  - Literature study
+  ```
+  
+  [^4]: [bron: wikipedia ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping.)
+  [^5]: [bron: stackoverflow ORM](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one.) 
+  
   </details>
     
 ## Leeruitkomst 2: Software kwaliteit
@@ -89,13 +107,13 @@ ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een datab
   - Community research
   ```
   
-*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^5]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^6]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^7]. 
+*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^6]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^7]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^8]. 
 
 Beter software ontwikkelen door de items aan de linkerkant meer te waarderen dan de items aan de rechterkant:
   + Individuen en interacties boven processen en tools
   + Werkende software boven uitgebreide documentatie
   + Klantsamenwerking boven contractonderhandeling
-  + Reageren op verandering boven het volgen van een plan[^8]
+  + Reageren op verandering boven het volgen van een plan[^9]
   
 Er zijn 12 principes die de waarden ondersteunen:
   1. Onze hoogste prioriteit is om de klant tevreden te stellen door vroege en continue levering van waardevolle software.
@@ -113,10 +131,10 @@ Er zijn 12 principes die de waarden ondersteunen:
   
   
     
-  [^5]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
-  [^6]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
-  [^7]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
-  [^8]: [bron: wikipedia](https://en.wikipedia.org/wiki/Agile_software_development) </br>
+  [^6]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
+  [^7]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
+  [^8]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
+  [^9]: [bron: wikipedia agile](https://en.wikipedia.org/wiki/Agile_software_development) </br>
   
   
   <!-- image -->
@@ -130,7 +148,7 @@ Er zijn 12 principes die de waarden ondersteunen:
    - Lean Software Development
    - Scaled Agile Framework (SAFe)
    
-   [^7]
+   [^8]
    
    
    
