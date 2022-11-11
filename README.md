@@ -66,6 +66,10 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
 - C#: NHibernate of Entity Framework
 - Python: SQLAlchemy[^5]
 
+ <h5> Conclusie: </h5>
+ Omdat ik voor mijn project heb gekozen om een Javascript backend te gebruiken, pas ik de bijbehorende ORM library eraan toe. Deze ORM library wordt Hibernate genoemd.
+ <br></br>
+ 
 ```
   DOT framework method:
   - Survey
@@ -108,13 +112,13 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
   - Community research
   ```
   
-*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^5]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^6]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^7]. 
+*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^6]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^7]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^8]. 
 
 Beter software ontwikkelen door de items aan de linkerkant meer te waarderen dan de items aan de rechterkant:
   + Individuen en interacties boven processen en tools
   + Werkende software boven uitgebreide documentatie
   + Klantsamenwerking boven contractonderhandeling
-  + Reageren op verandering boven het volgen van een plan[^8]
+  + Reageren op verandering boven het volgen van een plan[^9]
   
 Er zijn 12 principes die de waarden ondersteunen:
   1. Onze hoogste prioriteit is om de klant tevreden te stellen door vroege en continue levering van waardevolle software.
@@ -132,10 +136,10 @@ Er zijn 12 principes die de waarden ondersteunen:
   
   
     
-  [^5]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
-  [^6]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
-  [^7]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
-  [^8]: [bron: wikipedia agile](https://en.wikipedia.org/wiki/Agile_software_development) </br>
+  [^6]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
+  [^7]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
+  [^8]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
+  [^9]: [bron: wikipedia agile](https://en.wikipedia.org/wiki/Agile_software_development) </br>
   
   
   <!-- image -->
@@ -145,7 +149,7 @@ Er zijn 12 principes die de waarden ondersteunen:
    <details>
    <summary><h4> Welke agile methodes zijn er? </h4></summary>
    
- Met verschillende methodes kan je op de agile manier werken. Hier zijn 3 voorbeelden van methodes:
+ Met verschillende methodes kan je op de agile manier werken[^8]. Hier zijn 3 voorbeelden van methodes:
  
  - <h5>Kanban</h5>
 De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of signboard". Bij Kanban gaat het erom om et project "just in time" in te leveren. Dit gebeurt met behulp van een Kanban-board, dat in kolommen is verdeeld om het proces van de software ontwikkeling te laten zien. Zo ziet het team elke ontwikkelingsfase en kunnen zo hun voortgang inschatten om de taken "just in time" in te leveren. Scrum werkt hierbij op dezelfde manier maar dan leveren ze op in sprints.
@@ -153,12 +157,21 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
  - <h5>Extreme Programming (XP) </h5>
  Extreme Programming is een methode die de nadruk legt op teamwork, communicatie en feedback. Het richt zich op constante ontwikkeling en klanttevredenheid. Net als scrum maakt deze methode ook gebruik van sprints, dit zorgt voor een productief team en zeer efficiënte omgeving. Dit helpt de ontwikkelaars om veranderingen in de eisen van de klant te accepteren. Bij Extreme Programming wordt het project vanaf de beginfase getest door feedback te verzamelen die de output van het systeem bevordert. Dit biedt ook opties om gemakkelijk eventuele klantvereisten te implementeren.
  
- - <h5>Scaled Agile Framework (SAFe)</h5>
-   
+ - <h5>Lean Software Development</h5>
+ Deze agile methode werkt met 7 principes:
  
+ 1. Verwijderen wat er niet toe doet -> Alles wat geen waarde toevoegt, wordt uit het project verwijderd.
+2. Kwaliteitsontwikkeling -> De discipline en controle van het aantal gecreëerde reststoffen zijn essentieel voor kwaliteitsontwikkeling.
+3. Kenniscreatie -> Het team is gedreven om de gehele infrastructuur te documenteren om deze waarde in de toekomst te behouden.
+4. Verbintenissen uitstellen -> Dit punt moedigt het team aan om zich minder te concentreren op het plannen en anticiperen op ideeën zonder eerst een voorafgaand en volledig begrip van de zakelijke vereisten te hebben.
+5. Snelle levering -> Zo snel mogelijk waarde bieden aan de klant.
+6. Het team respecteren -> twee essentiële punten zijn communicatie en conflicthantering.
+7. Optimaliseer het geheel -> Om een stroom van echte waarde te creëren, moet de ontwikkelingsvolgorde voldoende geperfectioneerd zijn om fouten uit de code te verwijderen.
  
-   [^7]
-   
+ Met behulp van deze lean-methodologie worden ontwikkeltijd en middelen geoptimaliseerd. Deze methode is eenvoudig schaalbaar en aanpasbaar aan projecten van elke omvang.
+
+ <h5> Conclusie: </h5>
+ Op mijn individuele project ga ik de principes toepassen van de agile methode Lean Software Development 
    
    
    </details>
