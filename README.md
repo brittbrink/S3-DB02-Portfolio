@@ -173,6 +173,7 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
  <h5> Conclusie: </h5>
  Op mijn individuele project ga ik de principes toepassen van de agile methode Lean Software Development 
    
+   [![2022-11-14.png](https://i.postimg.cc/zDK4gvzw/2022-11-14.png)](https://postimg.cc/grcM9Y6r)
    
    </details>
     
