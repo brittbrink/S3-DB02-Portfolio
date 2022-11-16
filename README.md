@@ -171,7 +171,9 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
  Met behulp van deze lean-methodologie worden ontwikkeltijd en middelen geoptimaliseerd. Deze methode is eenvoudig schaalbaar en aanpasbaar aan projecten van elke omvang.
 
  <h5> Conclusie: </h5>
- Op mijn individuele project ga ik de principes toepassen van de agile methode Lean Software Development 
+ Op mijn individuele project ga ik de principes toepassen van de agile methode Lean Software Development, zo blijft de kwaliteit van het product goed en kan ik rekening houden met een team en mogelijke klanten. Deze principes zijn vooral ook handig als ik straks in een team moet werken, waar ik niemand ken. Zo zorg ik ervoor dat ik mezelf al kan openstellen en mezelf kan voorbereiden op wat er verwacht wordt van mij.
+ 
+ Voor ons groepsproject werken wij op de scrum methode maar gebruiken wij ook Extreme Programming. We zorfgen ervoor dat we de feedback die we terugkrijgen van de klant meteen verwerken zodat we up-to-date blijven met de klant en aan hn eisen blijven voldoen. Ook werken we in sprints die beide methodes toepassen. Onze user stories staan in ons Jira board. Elk persoon heeft een user story toegeëigend gekregen, hier gaat hij/zij aan werken. Elke sprint heeft hier user stories toegekend gekregen waar we in die sprint aan gaan werken, zoals in de afbeelding te zien is:
    
    [![2022-11-14.png](https://i.postimg.cc/zDK4gvzw/2022-11-14.png)](https://postimg.cc/grcM9Y6r)
    
@@ -221,8 +223,15 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
 **Gerelateerd**: Bedrijfsprocessen waarbij de software die u ontwikkelt gebruikt gaat worden (bedrijfsprocessen die de software moet ondersteunen door deze geheel of gedeeltelijk te automatiseren) of bedrijfsprocessen die nodig zijn voor het succes van uw softwareontwikkelingsproject (bijv. productrelease, marktrelease, financiële zekerheid).
    
    <details>
-   <summary><h4> hee </h4></summary>
+   <summary><h4> Business process </h4></summary>
    
+   <h5> Business process zonder onze app </h5>
+  <a href='https://postimg.cc/cgSpZmNz' target='_blank'><img src='https://i.postimg.cc/cgSpZmNz/S3groepsproject-bedrijfsproceswithoutapp.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithoutapp' width="300"/></a>
+  
+   <h5> Business process met onze app </h5>
+   <a href='https://postimg.cc/2LjgLSyF' target='_blank'><img src='https://i.postimg.cc/2LjgLSyF/S3groepsproject-bedrijfsproceswithapp.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithapp' width="300"/></a>
+   
+   (Klik op de afbeelding voor scherp beeld)
 
    
    </details>
