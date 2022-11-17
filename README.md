@@ -53,7 +53,7 @@ Voor de backend heb ik de taal JavaScript gekozen. In ons groepsproject hebben w
   
 </details>
 <details>
-  <summary><h4> Welke ORM is het meest geschikt voor mijn project? </h4></summary>
+  <summary><h4> Op welke manier kan een ORM op security mijn web applicatie verbeteren </h4></summary>
 
 Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter gekomen dat ik onderzoek moest gaan doen naar ORM's. Ik wist nog niet goed wat dit was, maar heb er wel van geleerd nadat ik de forms teruggekoppeld kreeg. Zo heb ik uit de forms de functie van een ORM weten te halen.
 
@@ -143,7 +143,8 @@ Er zijn 12 principes die de waarden ondersteunen:
   
   
   <!-- image -->
-  ![alt text](https://targettrend.com/wp-content/uploads/2021/03/Agile-Methodology-1.png)
+  ![alt text](https://targettrend.com/wp-content/uploads/2021/03/Agile-Methodology-1.png) [^10]
+ [^10]: [bron: agile methodology picture](https://targettrend.com/agile-methodology-meaning-advantages-disadvantages-more/)
   
    </details>
    <details>
