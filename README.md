@@ -45,11 +45,30 @@ Voor de backend heb ik de taal Java Springboot gekozen. In ons groepsproject heb
   - Survey
   - Focus group
   ```
+</details>
 
+<details>
+  <summary><h4> Designs en wireframe </h4></summary>
+
+
+De kleuren geel en rood doen ons vooral denken aan eten en wekken eetlust op[^4][^5]. Ik ben daarom voor de kleur oranje gegaan, want geel en rood gemengd maakt oranje.
+
+[^6]
+[^7]
+[^8]
+[^9]
+
+[^4]: [bron: intereno](https://www.intereno.nl/artikelen/kleurenpsychologie-in-de-keuken/)
+[^5]: [bron: fitgirls](https://fitgirls.nl/deze-kleuren-hebben-effect-op-jouw-eetlust/)
+[^6]: [bron: jumbo recepten](https://www.jumbo.com/recepten)
+[^7]: [bron: ah recepten](https://www.ah.nl/allerhande)
+[^8]: [bron: 24kitchen recepten](https://www.24kitchen.nl/recepten)
+[^9]: [bron: leukerecepten](https://www.leukerecepten.nl/)
 
    <!-- gifje -->
   ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
   
+
 </details>
 <details>
   <summary><h4> Op welke manier kan een ORM de performance van mijn web applicatie verbeteren? </h4></summary>
@@ -57,17 +76,17 @@ Voor de backend heb ik de taal Java Springboot gekozen. In ons groepsproject heb
 Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter gekomen dat ik onderzoek moest gaan doen naar ORM's. Ik wist nog niet goed wat dit was, maar heb er wel van geleerd nadat ik de forms teruggekoppeld kreeg. Zo heb ik uit de forms de functie van een ORM weten te halen.
 
  <h5> Wat is een ORM? </h5>
- Een ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom. Ik heb dit nog bevestigt door research te doen op het internet. Een ORM convert gegevens tussen systemen met behulp van programmeertalen[^4]. Bij objectgeoriënteerd programmeren kun je gebruik maken van een ORM library, dit zorgt ervoor dat je bijvoorbeeld niet je hele query hoeft uittetypen met SQL en dus tijd bespaart[^5]. 
+ Een ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom. Ik heb dit nog bevestigt door research te doen op het internet. Een ORM convert gegevens tussen systemen met behulp van programmeertalen[^10]. Bij objectgeoriënteerd programmeren kun je gebruik maken van een ORM library, dit zorgt ervoor dat je bijvoorbeeld niet je hele query hoeft uittetypen met SQL en dus tijd bespaart[^11]. 
  
  Er zijn verschillende ORM libraries voor verschillende programmeertalen, elke programmeertaal heeft een bijpassende ORM library: 
  
 - Java: Hibernate
 - C#: NHibernate of Entity Framework
-- Python: SQLAlchemy[^5]
+- Python: SQLAlchemy[^11]
 
-Er zijn meerdere technieken die ervoor zorgen dat ORM-code net zo goed presteert als met de hand gecodeerde code. Moderne ORM's bevatten namelijk technieken zoals gretig laden en batchgewijs updaten die ingewikkeld zijn om te implementeren met hand gecodeerde code. Doordat de ORM-code net zo goed presteert als met de hand gecodeerde code maak je geen kosten aan het beheersen en onderhouden van complexe SQL en handgeschreven code[^6].
+Er zijn meerdere technieken die ervoor zorgen dat ORM-code net zo goed presteert als met de hand gecodeerde code. Moderne ORM's bevatten namelijk technieken zoals gretig laden en batchgewijs updaten die ingewikkeld zijn om te implementeren met hand gecodeerde code. Doordat de ORM-code net zo goed presteert als met de hand gecodeerde code maak je geen kosten aan het beheersen en onderhouden van complexe SQL en handgeschreven code[^12].
 
-Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg groot is (veel relaties tussen veel modellen). Om 1 gigantische query te doen en dan alles in 1 stap op te halen is niet sneller, zeker niet als je niet altijd alle informatie nodig hebt. De verleiding is groot bij een JDBC-benadering om één gigantische query te gebruiken, omdat het aanzienlijk langer (en meer werk) is om N queries te doen. Met ORM is het een beetje het tegenovergestelde, standaard zijn N queries makkelijker te doen. Alleen kan je hier tegen het N+1 probleem aanlopen, die je wilt vermijden, dit kan je oplossen door de techniek gretig laden toe te passen, die moderne ORM's bevatten[^6][^7]. Echter is het eenvoudiger om het aantal queries te verminderen door tabellen samen te voegen in plaats van queries te splitsen, ORM-prestatieoptimalisatie voelt natuurlijker aan[^8].
+Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg groot is (veel relaties tussen veel modellen). Om 1 gigantische query te doen en dan alles in 1 stap op te halen is niet sneller, zeker niet als je niet altijd alle informatie nodig hebt. De verleiding is groot bij een JDBC-benadering om één gigantische query te gebruiken, omdat het aanzienlijk langer (en meer werk) is om N queries te doen. Met ORM is het een beetje het tegenovergestelde, standaard zijn N queries makkelijker te doen. Alleen kan je hier tegen het N+1 probleem aanlopen, die je wilt vermijden, dit kan je oplossen door de techniek gretig laden toe te passen, die moderne ORM's bevatten[^13][^14]. Echter is het eenvoudiger om het aantal queries te verminderen door tabellen samen te voegen in plaats van queries te splitsen, ORM-prestatieoptimalisatie voelt natuurlijker aan[^12].
 
  <h5> Conclusie: </h5>
  Door verschillende technieken presteert ORM-code net zo goed als code die met de hand is gecodeerd. Maar het nadeel van hand gecodeerde code en het schrijven van SQL queries is dat 1 gigantische query, die alles in 1 keer ophaalt, er lang over doet. Een ORM daarintegen gebruikt N queries, waarmee je tegen een N+1 probleem aanloopt. Maar om dit op te lossen bevat een ORM een techniek die dit kan verhelpen. Dit is makkelijker en geeft minimale kosten dan de SQL uit elkaar te pluizen op fouten en de grote van de query, om de performance te maximaliseren. 
@@ -79,11 +98,11 @@ Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg g
   - Literature study
   ```
   
- [^4]: [bron: stackoverflow ORM](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one.) </br>
- [^5]: [bron: wikipedia ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping.) </br>
- [^6]: [bron: infoq](https://www.infoq.com/articles/optimizing-orm-performance/) </br>
- [^7]: [bron: inspector](https://inspector.dev/make-your-application-scalable-optimizing-the-orm-performance/) </br>
- [^8]: [bron: chase the devil](https://chasethedevil.github.io/post/use-orm-for-better-performance/) </br>
+ [^10]: [bron: stackoverflow ORM](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one.) </br>
+ [^11]: [bron: wikipedia ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping.) </br>
+ [^12]: [bron: infoq](https://www.infoq.com/articles/optimizing-orm-performance/) </br>
+ [^13]: [bron: inspector](https://inspector.dev/make-your-application-scalable-optimizing-the-orm-performance/) </br>
+ [^14]: [bron: chase the devil](https://chasethedevil.github.io/post/use-orm-for-better-performance/) </br>
 
   </details>
     
@@ -118,13 +137,13 @@ Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg g
   - Community research
   ```
   
-*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^7]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^8]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^9]. 
+*Agile* = Een verzameling van waarden en principes. Op de agile methode werken is elke beslissing nemen op basis van de principes en waarden die het team heeft besloten te volgen[^15]. Je levert je eindproduct stapsgewijs op, elke keer verbeter je je product door kleine releases[^16]. Het project wordt opgebouwd doormiddel van sprints, hierbij kun je veranderingen creëren en erop reageren[^17]. 
 
 Beter software ontwikkelen door de items aan de linkerkant meer te waarderen dan de items aan de rechterkant:
   + Individuen en interacties boven processen en tools
   + Werkende software boven uitgebreide documentatie
   + Klantsamenwerking boven contractonderhandeling
-  + Reageren op verandering boven het volgen van een plan[^10]
+  + Reageren op verandering boven het volgen van een plan[^18]
   
 Er zijn 12 principes die de waarden ondersteunen:
   1. Onze hoogste prioriteit is om de klant tevreden te stellen door vroege en continue levering van waardevolle software.
@@ -142,21 +161,21 @@ Er zijn 12 principes die de waarden ondersteunen:
   
   
     
-  [^7]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
-  [^8]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
-  [^9]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
-  [^10]: [bron: wikipedia agile](https://en.wikipedia.org/wiki/Agile_software_development) </br>
+  [^15]: [bron: agile.org](https://www.agilealliance.org/agile101/) </br>
+  [^16]: [bron: HDI](https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx) </br> 
+  [^17]: [bron: jigsaw](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/#:~:text=The%20agile%20method%20is%20an,thereby%20encouraging%20flexibility%20to%20changes.) </br>
+  [^18]: [bron: wikipedia agile](https://en.wikipedia.org/wiki/Agile_software_development) </br>
   
   
   <!-- image -->
-  ![alt text](https://targettrend.com/wp-content/uploads/2021/03/Agile-Methodology-1.png) [^11]
- [^11]: [bron: agile methodology picture](https://targettrend.com/agile-methodology-meaning-advantages-disadvantages-more/)
+  ![alt text](https://targettrend.com/wp-content/uploads/2021/03/Agile-Methodology-1.png) [^19]
+ [^19]: [bron: agile methodology picture](https://targettrend.com/agile-methodology-meaning-advantages-disadvantages-more/)
   
    </details>
    <details>
    <summary><h4> Welke agile methodes zijn er? </h4></summary>
    
- Met verschillende methodes kan je op de agile manier werken[^8]. Ik heb 8 verschillende agile methodes gevonden:
+ Met verschillende methodes kan je op de agile manier werken. Ik heb 8 verschillende agile methodes gevonden:
  1. Scrum
  2. Kanban
  3. Extreme Programming (XP)
@@ -166,7 +185,7 @@ Er zijn 12 principes die de waarden ondersteunen:
  7. Lean Software Development
  8. Scaled Agile Framework (SAFe)
  
- Ik heb hieronder 3 methodes uitgewerkt:
+ Ik heb hieronder 3 methodes uitgewerkt[^17]:
  
  - <h5>Kanban</h5>
 De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of signboard". Bij Kanban gaat het erom om et project "just in time" in te leveren. Dit gebeurt met behulp van een Kanban-board, dat in kolommen is verdeeld om het proces van de software ontwikkeling te laten zien. Zo ziet het team elke ontwikkelingsfase en kunnen zo hun voortgang inschatten om de taken "just in time" in te leveren. Scrum werkt hierbij op dezelfde manier maar dan leveren ze op in sprints.
@@ -264,5 +283,3 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
    
 
    </details>
-
-![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
