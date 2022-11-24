@@ -47,29 +47,7 @@ Voor de backend heb ik de taal Java Springboot gekozen. In ons groepsproject heb
   ```
 </details>
 
-<details>
-  <summary><h4> Designs en wireframe </h4></summary>
 
-
-De kleuren geel en rood doen ons vooral denken aan eten en wekken eetlust op[^4][^5]. Ik ben daarom voor de kleur oranje gegaan, want geel en rood gemengd maakt oranje.
-
-[^6]
-[^7]
-[^8]
-[^9]
-
-[^4]: [bron: intereno](https://www.intereno.nl/artikelen/kleurenpsychologie-in-de-keuken/)
-[^5]: [bron: fitgirls](https://fitgirls.nl/deze-kleuren-hebben-effect-op-jouw-eetlust/)
-[^6]: [bron: jumbo recepten](https://www.jumbo.com/recepten)
-[^7]: [bron: ah recepten](https://www.ah.nl/allerhande)
-[^8]: [bron: 24kitchen recepten](https://www.24kitchen.nl/recepten)
-[^9]: [bron: leukerecepten](https://www.leukerecepten.nl/)
-
-   <!-- gifje -->
-  ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
-  
-
-</details>
 <details>
   <summary><h4> Op welke manier kan een ORM de performance van mijn web applicatie verbeteren? </h4></summary>
 
@@ -83,6 +61,14 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
 - Java: Hibernate
 - C#: NHibernate of Entity Framework
 - Python: SQLAlchemy[^11]
+
+<h5> Waar dient een ORM voor? </h5>
+
+<h5> Welke verschillende Java ORM's zijn er? </h5>
+
+<h5> Wat zijn de voor en nadelen van een ORM? </h5>
+
+<h5> Prototyping? </h5>
 
 Er zijn meerdere technieken die ervoor zorgen dat ORM-code net zo goed presteert als met de hand gecodeerde code. Moderne ORM's bevatten namelijk technieken zoals gretig laden en batchgewijs updaten die ingewikkeld zijn om te implementeren met hand gecodeerde code. Doordat de ORM-code net zo goed presteert als met de hand gecodeerde code maak je geen kosten aan het beheersen en onderhouden van complexe SQL en handgeschreven code[^12].
 
@@ -246,10 +232,47 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
 **Meerdere soorten testtechnieken**: Je past gebruikersacceptatietesten en feedback van belanghebbenden toe om de kwaliteit van de vereisten te valideren. Je evalueert de kwaliteit van het ontwerp (bijvoorbeeld door testen of prototyping) rekening houdend met de geformuleerde kwaliteitseigenschappen zoals veiligheid en prestaties.
    
    <details>
-   <summary><h4> whot </h4></summary>
+  <summary><h4> Designs en wireframe </h4></summary>
 
 
-   </details>
+De kleuren geel en rood doen ons vooral denken aan eten en wekken eetlust op[^4][^5]. Ik ben daarom voor de kleur oranje gegaan, want geel en rood gemengd maakt oranje.
+
+Ik heb onderzoek gedaan bij verschillende websites die recepten laten zien. Hierdoor heb ik inspiratie opgedaan voor mijn eigen website. Ik heb zelf gekeken naar wat ik mooi vind en wat ik handig/makkelijk vind.
+
+#### Leuke recepten
+Leukerecepten.nl heeft als je over een plaatje heen hovert dat er dan informatie wordt gegeven over het recept, ikwilde het zelf wat meer simpel houden en deze informatie pas laten zien als je echt het recept wilt aanklikken.
+![2022-11-23 (1)](https://user-images.githubusercontent.com/99249005/203744947-2badad85-a047-438c-9fed-cb69c4e5e2f4.png) [^6]
+
+#### Jumbo
+Van jumbo.com heb ik inspiratie opgedaan om het recept te laten zien als je erop klikt, dan is je plaatje niet volledig aan de background maar heeft ie nog een soort lijst, als bij een schilderij, eromheen. Als je dus op een recept klikt krijg je het plaatje zo te zien.
+![2022-11-23 (2)](https://user-images.githubusercontent.com/99249005/203751547-1a2d3b8d-200d-461a-888c-08c14a8b2b5e.png) [^7]
+
+#### Albert Heijn
+Bij de ah.nl vond ik het erg leuk hoe ze op de beginpagina laten zien hoeveel kcal er in het recept zitten en voor hoeveel personen het gerecht is. Dit heb ik zelf ook toegevoegd in die rand die ze hebben gebruikt. Ik vond dit erg aantrekkelijk en belangrijk om te laten zien omdat je zelf de calorieën invult in het begin.
+![2022-11-23](https://user-images.githubusercontent.com/99249005/203758347-93996266-f594-4964-89a6-2f40ddc9157d.png)[^8]
+
+#### 24kitchen
+Bij 24kitchen.nl zag ik dat je recepten kon favorieten en dat vond ik een leuke en handige toevoeging in mijn applicatie. Zo kun je alleen maar favorieten aanklikken als je ingelogd bent.
+![2022-11-23 (3)](https://user-images.githubusercontent.com/99249005/203759485-bfe6db77-1a09-45a8-b1e0-a872903f9e14.png) [^9]
+
+[^4]: [bron: intereno](https://www.intereno.nl/artikelen/kleurenpsychologie-in-de-keuken/)
+[^5]: [bron: fitgirls](https://fitgirls.nl/deze-kleuren-hebben-effect-op-jouw-eetlust/)
+[^6]: [bron: leukerecepten](https://www.leukerecepten.nl/)
+[^7]: [bron: jumbo recepten](https://www.jumbo.com/recepten)
+[^8]: [bron: ah recepten](https://www.ah.nl/allerhande)
+[^9]: [bron: 24kitchen recepten](https://www.24kitchen.nl/recepten)
+
+
+ Hiernaast is mijn interactieve UI-design te zien:         
+<img src="https://user-images.githubusercontent.com/99249005/203734556-c2214dca-fc0b-4634-9f64-25dea693f12a.gif"  width="500" height="350"/> </br>
+En hier is mijn interactieve wireframe te zien: </br>
+<img src="https://user-images.githubusercontent.com/99249005/203734605-253748b1-2c3b-44cf-b365-b61791af0920.gif"  width="500" height="350"/>
+
+  <!-- gifje -->
+  ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
+
+
+</details>
    
 ## Leeruitkomst 7: Business processen
 **Leeruitkomst**: Je analyseert en beschrijft **eenvoudige** bedrijfsprocessen die **gerelateerd** zijn aan jouw project.
