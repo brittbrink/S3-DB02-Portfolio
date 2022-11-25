@@ -26,7 +26,10 @@
 
   
   <details>
-  <summary><h4> Welke programmeertaal? </h4></summary>
+  <summary><h4> Mijn webapplicatie </h4></summary>
+
+*Productbeschrijving:* </br>
+Met mijn webapplicatie kun je je verbrandde calorieën ingeven en worden er vervolgens recepten opgehaald die deze calorieën bevatten. Zo eet je de calorieën die je verbrand hebt via een maaltijd. Daarnaast kun je inloggen om je favorieten te bekijken die je hebt aangeklikt en krijg je een historie te zien met de recepten die je al is hebt gezien. Hierdoor worden deze recepten niet meer voor jou gegenereerd, zodat er variatie blijft.
 
 *Frontend taal:* </br>
 Voor de frontend heb ik de taal React gekozen, dit omdat het makkelijker te leren is[^1]. Ik heb zelf nog maar een jaartje ervaring met coderen in C# (backend) en voor de frontend html/css. Ik wilde niet een te grootte stap vooruit nemen en mezelf in de war laten komen door alle talen. Ook kan ik vanauit React snel overswitchen naar een mobile app maken, zo kan ik mezelf uitdagen binnen de taal React. Ook is React door de meeste developers gebruikt[^2]. 
@@ -64,9 +67,9 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
 
 <h5> Waar dient een ORM voor? </h5>
 
-<h5> Welke verschillende Java ORM's zijn er? </h5>
-
 <h5> Wat zijn de voor en nadelen van een ORM? </h5>
+
+<h5> Welke verschillende Java ORM's zijn er? </h5>
 
 <h5> Prototyping? </h5>
 
@@ -271,6 +274,17 @@ En hier is mijn interactieve wireframe te zien: </br>
   <!-- gifje -->
   ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
 
+
+</details>
+
+<details>
+   <summary><h4> Modellen </h4></summary>
+   
+   #### Conceptueel model
+   ![conceptueel model semester3 drawio](https://user-images.githubusercontent.com/99249005/203935216-41b5f61e-de59-4460-9d0e-38718c992735.png)
+
+   #### C2 model
+   ![c2 model drawio](https://user-images.githubusercontent.com/99249005/203966746-67eb1fc8-fe63-466a-a65b-8976f74a5b66.png)
 
 </details>
    
