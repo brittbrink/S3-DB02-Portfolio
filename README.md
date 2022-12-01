@@ -52,7 +52,7 @@ Voor de backend heb ik de taal Java Springboot gekozen. In ons groepsproject heb
 
 
 <details>
-  <summary><h4> Op welke manier kan een ORM de performance van mijn web applicatie verbeteren? </h4></summary>
+  <summary><h4> Op welke manier kan een ORM de security van mijn web applicatie verbeteren? </h4></summary>
 
 Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter gekomen dat ik onderzoek moest gaan doen naar ORM's. Ik wist nog niet goed wat dit was, maar heb er wel van geleerd nadat ik de forms teruggekoppeld kreeg. Zo heb ik uit de forms de functie van een ORM weten te halen.
 
@@ -67,9 +67,9 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
 
 <h5> Waar dient een ORM voor? </h5>
 
-<h5> Wat zijn de voor en nadelen van een ORM? </h5>
-
-<h5> Welke verschillende Java ORM's zijn er? </h5>
+ <h5> Welke verschillende Java ORM's zijn er? </h5>
+ 
+<h5> Wat zijn de voor en nadelen van een ORM op basis van security? </h5>
 
 <h5> Prototyping? </h5>
 
@@ -103,10 +103,50 @@ Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg g
   netzoals het toepassen van statische code analyse en code reviews.
 
    <details>
-   <summary><h4> werkt het? </h4></summary>
-   
+   <summary><h4> Code quality </h4></summary>
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/205012992-ea99146b-94a3-4493-89b9-f0999a280c6b.png) [^15]
+  
+ ![image](https://user-images.githubusercontent.com/99249005/205012912-1e261373-2df8-4a82-81ea-53eb7b61fc19.png) 
 
+![image](https://user-images.githubusercontent.com/99249005/205012755-4f9a41b9-d291-4cde-9fc2-1966ea9d2618.png)
 
+ ![image](https://user-images.githubusercontent.com/99249005/205013808-05278258-0967-4387-b31b-9d0a3234d32c.png)
+
+![image](https://user-images.githubusercontent.com/99249005/205015760-3bcdc85a-6ac6-436f-b388-88041de73dac.png) [^16]
+toegevoegd aan settings.xml file
+ 
+![image](https://user-images.githubusercontent.com/99249005/205019103-4fe79830-cce3-4eff-af0d-a106cb9fe133.png)
+
+ ![image](https://user-images.githubusercontent.com/99249005/205019207-d88c13fd-c6ef-46da-845f-930a34335c09.png)
+
+ ![image](https://user-images.githubusercontent.com/99249005/205020863-8c5f140c-c790-4dd5-a4a2-e7df88e2d04b.png)
+geprobeerd omdat ik building failed kreeg
+ ![image](https://user-images.githubusercontent.com/99249005/205021343-b023a3c9-90f2-49ed-a623-9e3b2e1e32ac.png)
+maar werkt niet
+ 
+ mvn clean verify sonar:sonar   -Dsonar.projectKey=projectSemester3   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=sqp_f117f63345b04852876bc112ccfebadf139ac331 dit gerund en nu doet ie het wel.
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/205022109-54d47570-42c8-4d66-9c31-8e30d74bbe9b.png)
+
+ De warnings die aangegeven stonden, waren omdat ik mijn recipecontroller nog niet had gepusht naar Git, nadat ik dit heb gedaan kreeg ik geen warnings meer.
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/205023630-d4ed66a0-d7f1-46ce-8558-8e7adfb7a423.png)
+
+ ![image](https://user-images.githubusercontent.com/99249005/205028198-345ab478-cafb-4af1-b14f-960e99483c85.png)
+
+ ![image](https://user-images.githubusercontent.com/99249005/205029177-ec007d95-447e-481a-81c7-8442efeef76d.png) [^20]
+
+ ![image](https://user-images.githubusercontent.com/99249005/205031379-3b194f68-7886-43d2-a7d6-ba9d9a7d91ba.png)
+
+ ![image](https://user-images.githubusercontent.com/99249005/205031521-811d0b45-927e-4e60-9570-e00df19dfc24.png)
+
+ 
+ [^15]: [bron: SonarQube opzetten](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/) </br>
+ [^16]: [bron: SonarQube settings.xml](http://localhost:9000/documentation/analysis/scan/sonarscanner-for-maven/) </br>
+ 
+ [^20]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
+ 
    </details>
    
 ## Leeruitkomst 3: Agile methode
