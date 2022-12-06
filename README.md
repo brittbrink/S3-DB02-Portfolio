@@ -104,8 +104,16 @@ Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg g
 
    <details>
    <summary><h4> Code quality </h4></summary>
+   
+   Voor code quality heb gekeken naar welke tool ik het best kan gebruiken. PVS studio werd erg aangeraden en daarnaast ook SonarQube[^15]. SonarQube is een SAST tool, Static Application Security Testing, hiermee kun je kwetsbaarheden die veiligheidsproblemen veroorzaken analyseren. Ik heb voor SonarQube gekozen omdat ik doormiddel van SonarCloud ook mijn ci/cd kan opzetten. Zo maak ik al kennis met hoe Sonar werkt en helpt dit mij met het opzetten van ci/cd. Via SonarQube kun je gemakkelijk continuous code quality en code security op je project zetten. Hierbij heb ik het stappenplan gevolgd dat door SonarQube wordt aanbevolen.
+   
+<h5> Stappenplan: </h5>
+1. Het downloaden van de zip file </br>
+2. Installeren van Java 11 </br>
+   <a href='https://user-images.githubusercontent.com/99249005' target='_blank'><img src='https://user-images.githubusercontent.com/99249005/205012992-ea99146b-94a3-4493-89b9-f0999a280c6b.png' border='0' alt='205012992-ea99146b-94a3-4493-89b9-f0999a280c6b' width="450"/></a> </br> [^16]
  
- ![image](https://user-images.githubusercontent.com/99249005/205012992-ea99146b-94a3-4493-89b9-f0999a280c6b.png) [^15]
+ 3. Inloggen op localhost:9000
+ <!-- ![image](https://user-images.githubusercontent.com/99249005/205012992-ea99146b-94a3-4493-89b9-f0999a280c6b.png) --> 
   
  ![image](https://user-images.githubusercontent.com/99249005/205012912-1e261373-2df8-4a82-81ea-53eb7b61fc19.png) 
 
@@ -113,7 +121,7 @@ Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg g
 
  ![image](https://user-images.githubusercontent.com/99249005/205013808-05278258-0967-4387-b31b-9d0a3234d32c.png)
 
-![image](https://user-images.githubusercontent.com/99249005/205015760-3bcdc85a-6ac6-436f-b388-88041de73dac.png) [^16]
+![image](https://user-images.githubusercontent.com/99249005/205015760-3bcdc85a-6ac6-436f-b388-88041de73dac.png) [^17]
 toegevoegd aan settings.xml file
  
 ![image](https://user-images.githubusercontent.com/99249005/205019103-4fe79830-cce3-4eff-af0d-a106cb9fe133.png)
@@ -135,17 +143,17 @@ maar werkt niet
 
  ![image](https://user-images.githubusercontent.com/99249005/205028198-345ab478-cafb-4af1-b14f-960e99483c85.png)
 
- ![image](https://user-images.githubusercontent.com/99249005/205029177-ec007d95-447e-481a-81c7-8442efeef76d.png) [^20]
+ ![image](https://user-images.githubusercontent.com/99249005/205029177-ec007d95-447e-481a-81c7-8442efeef76d.png) [^18]
 
  ![image](https://user-images.githubusercontent.com/99249005/205031379-3b194f68-7886-43d2-a7d6-ba9d9a7d91ba.png)
 
  ![image](https://user-images.githubusercontent.com/99249005/205031521-811d0b45-927e-4e60-9570-e00df19dfc24.png)
 
+  [^15]: [bron: keuze SonarQube](https://www.softwaretestinghelp.com/code-quality-tools/) </br>
+ [^16]: [bron: SonarQube opzetten](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/) </br>
+ [^17]: [bron: SonarQube settings.xml](http://localhost:9000/documentation/analysis/scan/sonarscanner-for-maven/) </br>
  
- [^15]: [bron: SonarQube opzetten](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/) </br>
- [^16]: [bron: SonarQube settings.xml](http://localhost:9000/documentation/analysis/scan/sonarscanner-for-maven/) </br>
- 
- [^20]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
+ [^18]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
  
    </details>
    
