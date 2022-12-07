@@ -258,8 +258,22 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
 **Ontwerpen en implementeren**: Je ontwerpt een releaseproces en implementeert een continu integratie- en implementatieoplossing (met behulp van o.a. Gitlab CI en Docker).
    
    <details>
-   <summary><h4> yes </h4></summary>
+   <summary><h4> SonarCloud  </h4></summary>
    
+   <h5> backend </h5>
+   ![image](https://user-images.githubusercontent.com/99249005/206141380-94326c74-9463-4054-b063-cb7a67a6e4b8.png)
+
+![image](https://user-images.githubusercontent.com/99249005/206143757-ac1a9c14-255d-4894-9396-b934c30ffac4.png)
+
+Probleem: mijn project stond in een andere branch als de build.yml file waardoor hij stuk liep. Heb nu alles in mijn master staan en nu doet ie het wel. 
+
+![image](https://user-images.githubusercontent.com/99249005/206147514-b485ddae-281e-4d4f-a4da-afcd0753ac10.png)
+
+![image](https://user-images.githubusercontent.com/99249005/206148575-1e38d35c-55b2-4600-bcb1-f55085df7b4d.png)
+
+<h5> frontend </h5>
+
+![image](https://user-images.githubusercontent.com/99249005/206152984-0001de7f-40b4-418b-a43b-6718d11c4b67.png)
 
    </details>
 
@@ -321,7 +335,6 @@ En hier is mijn interactieve wireframe te zien: </br>
 
   <!-- gifje -->
   ![alt text](https://media1.giphy.com/media/4bjIKBOWUnVPICCzJc/200.gif)
-
 
 </details>
 
