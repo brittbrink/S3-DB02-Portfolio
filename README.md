@@ -105,7 +105,7 @@ Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg g
    <details>
    <summary><h4> Code quality </h4></summary>
    
-   Voor code quality heb gekeken naar welke tool ik het best kan gebruiken. PVS studio werd erg aangeraden en daarnaast ook SonarQube[^15]. SonarQube is een SAST tool, Static Application Security Testing, hiermee kun je kwetsbaarheden die veiligheidsproblemen veroorzaken analyseren. Ik heb voor SonarQube gekozen omdat ik doormiddel van SonarCloud ook mijn ci/cd kan opzetten. Zo maak ik al kennis met hoe Sonar werkt en helpt dit mij met het opzetten van ci/cd. Via SonarQube kun je gemakkelijk continuous code quality en code security op je project zetten. Hierbij heb ik het stappenplan gevolgd dat door SonarQube wordt aanbevolen.
+   Voor code quality heb gekeken naar welke tool ik het best kan gebruiken. PVS studio werd erg aangeraden en daarnaast ook SonarQube[^15]. SonarQube is een SAST tool, Static Application Security Testing, hiermee kun je kwetsbaarheden die veiligheidsproblemen veroorzaken analyseren. Ik heb voor SonarQube gekozen omdat ik doormiddel van SonarCloud ook mijn ci/cd kan opzetten. Zo maak ik al kennis met hoe Sonar werkt en helpt dit mij met het opzetten van ci/cd. Via SonarQube kun je gemakkelijk continuous code quality en code security op je project zetten en deze local laten runnen. Hierbij heb ik het stappenplan gevolgd dat door SonarQube wordt aanbevolen.
    
 <h5> Stappenplan: </h5>
 1. Het downloaden van de zip file </br>
@@ -266,7 +266,10 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
    <details>
    <summary><h4> SonarCloud  </h4></summary>
    
-   Om de CI aan te tonen heb ik SonarCloud gebruikt.
+   Om de CI aan te tonen heb ik SonarCloud gebruikt. Hierbij kijk je naar code quality en als deze dan passed, kun je deze aan een pipeline doorsturen
+[^20]. Op SonarCloud staat de code quality online.
+ 
+ [^20]: [bron: Pipeline met SonarCloud](https://docs.sonarqube.org/latest/)
    
    <h5> backend </h5>
  
@@ -289,6 +292,12 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
  <h5> Docker </h5>
  
  Voor de CD ga ik mijn website via docker deployen naar azure.
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/206416351-b92c7e9a-d3ae-4be0-a844-3687b5295312.png) [^21]
+ 
+ [^21]: [Bron: waarom failed](https://stackoverflow.com/questions/68405027/how-to-resolve-no-hosted-parallelism-has-been-purchased-or-granted-in-free-tie)
+ 
+
  
  <h5> conclusie </h5>
  
