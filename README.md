@@ -155,6 +155,12 @@ maar werkt niet
  
  [^18]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
  
+ 
+ ```
+  DOT framework method:
+  - Prototyping
+  ```
+  
    </details>
    
 ## Leeruitkomst 3: Agile methode
@@ -260,6 +266,8 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
    <details>
    <summary><h4> SonarCloud  </h4></summary>
    
+   Om de CI aan te tonen heb ik SonarCloud gebruikt.
+   
    <h5> backend </h5>
  
 ![image](https://user-images.githubusercontent.com/99249005/206141380-94326c74-9463-4054-b063-cb7a67a6e4b8.png)
@@ -278,12 +286,20 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
 
 ![image](https://user-images.githubusercontent.com/99249005/206152984-0001de7f-40b4-418b-a43b-6718d11c4b67.png)
 
+ <h5> Docker </h5>
+ 
+ Voor de CD ga ik mijn website via docker deployen naar azure.
  
  <h5> conclusie </h5>
  
  ![image](https://user-images.githubusercontent.com/99249005/206154781-88ae9c4f-4954-466f-b035-74e100b4b982.png)
 
  
+ ```
+  DOT framework method:
+  - Prototyping
+  ```
+  
    </details>
 
 ## Leeruitkomst 5: Culturele verschillen en ethiek
@@ -386,7 +402,19 @@ En hier is mijn interactieve wireframe te zien: </br>
    
    
    <details>
-   <summary><h4> ait </h4></summary>
+   <summary><h4> Contact </h4></summary>
    
+   <h5> Mail contact </h5>
+Het is vanzelfsprekend dat je je stakeholders op de hoogte houdt en als je vragen hebt over designs deze laat weten. Dit doen wij door mail contact te onderhouden. Ik heb de meeste mails geschreven waarbij we vragen hadden of bijvoorbeeld de datum, tijd en locatie van de oplevering konden doorsturen. Hierbij een voorbeeld van één van de mails die verzonden zijn:
+
+![image](https://user-images.githubusercontent.com/99249005/206404825-4d09da8f-2ec4-4f49-981a-cfd737308062.png)
+
+<h5> Feedpulse </h5>
+Ook praat ik regelematig met docenten om zo mijn voortgang te laten zien en vragen te stellen of ik de goede richting in ga.
+
+*insert feedpulse*
+
+<h5> Documentatie </h5>
+In het afgelopen document heb ik documentatie geschreven die van toepassing is om mijn leerdoelen te halen. Hierbij heb ik onderzoek gedaan. Ik heb hoofd- en deelvragen opgesteld en vanuit hier mijn onderzoek uitgebreid.
 
    </details>
