@@ -311,8 +311,16 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
 
    
    <details>
-   <summary><h4> whoo </h4></summary>
+   <summary><h4> Culturele verschillen </h4></summary>
    
+
+
+   </details>
+   
+   <details>
+   <summary><h4> Ethiek </h4></summary>
+   
+
 
    </details>
    
