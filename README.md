@@ -325,6 +325,18 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
  
  ![image](https://user-images.githubusercontent.com/99249005/207041846-4f5a5cbf-fcaf-4cc6-a858-b7671dffcf89.png)
 
+ Nu krijg ik via github een error van mijn SonarCloud
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207047812-116f764b-2371-4f93-959f-a3e76f3fb22c.png)
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207047432-9cded9af-3f16-4270-8a3b-041fe50c907d.png)
+ 
+ Automatic Analysis uitgezet.[^23]
+
+ [^23]: [bron: oplossen github sonarcloud](https://community.sonarsource.com/t/sonarcloud-task-fails-because-of-ci-analysis-and-auto-analysis-running/22937)
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207055356-f8f7393c-b13a-4fb5-956e-63643f2fd994.png)
+
  
  <h5> conclusie </h5>
  
