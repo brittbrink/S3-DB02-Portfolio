@@ -360,6 +360,10 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
    <details>
   <summary><h4> Designs en wireframe </h4></summary>
 
+  ```
+  DOT framework method:
+  - Gap analysis
+  ```
 
 De kleuren geel en rood doen ons vooral denken aan eten en wekken eetlust op[^4][^5]. Ik ben daarom voor de kleur oranje gegaan, want geel en rood gemengd maakt oranje.
 
