@@ -478,4 +478,18 @@ Ook praat ik regelematig met docenten om zo mijn voortgang te laten zien en vrag
 <h5> Documentatie </h5>
 In het afgelopen document heb ik documentatie geschreven die van toepassing is om mijn leerdoelen te halen. Hierbij heb ik onderzoek gedaan. Ik heb hoofd- en deelvragen opgesteld en vanuit hier mijn onderzoek uitgebreid.
 
+
+   </details>
+   
+   <details>
+   <summary><h4> APA stijl </h4></summary>
+ 
+   (Bhadwal, n.d.) (Palachuk, 2021) (Trask, 2012) (Shead, 2016)
+
+ <h5> Bibliography </h5>
+Bhadwal, A. (n.d.). C# vs. Java: Which Language is Better to Learn? Retrieved from hackr.io: https://hackr.io/blog/c-sharp-vs-java#:~:text=Java%20is%20class%2Dbased%20and,oriented%20languages%20with%20strong%20communities. </br>
+Palachuk, M. (2021, May 10). How to Define Agile in the Simplest Terms Possible. Retrieved from thinkHDI: https://www.thinkhdi.com/library/supportworld/2021/define-agile-in-simple-terms.aspx </br>
+Shead, M. (Director). (2016). What is Agile? [Motion Picture]. </br>
+Trask, J.-D. (2012, March 07). Optimizing ORM Performance. Retrieved from InfoQ: https://www.infoq.com/articles/optimizing-orm-performance/ </br>
+
    </details>
