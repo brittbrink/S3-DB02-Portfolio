@@ -156,6 +156,19 @@ maar werkt niet
  [^18]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
  
  
+ 
+ <h5> End to End testing </h5>
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/206998958-e8df5fa1-34a9-4d82-a93f-ae6477f63bcd.png)
+
+![image](https://user-images.githubusercontent.com/99249005/206999171-2470190f-0b87-41a2-8e52-dbf5fc4f7520.png)
+
+![image](https://user-images.githubusercontent.com/99249005/207006006-402c7eb2-43b3-4b11-af54-6d64135726e4.png)
+Test of de frontend data krijgt van de backend.
+
+![image](https://user-images.githubusercontent.com/99249005/207009755-c23c4e5a-4f40-443d-9dce-312185f90f98.png)
+
+
  ```
   DOT framework method:
   - Prototyping
