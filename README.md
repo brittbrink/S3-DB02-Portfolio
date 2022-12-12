@@ -315,6 +315,7 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
  
  [^21]: [Bron: waarom failed](https://stackoverflow.com/questions/68405027/how-to-resolve-no-hosted-parallelism-has-been-purchased-or-granted-in-free-tie)
  
+![image](https://user-images.githubusercontent.com/99249005/207013432-497358f8-e8c2-4233-b63c-f33686e069bc.png)
 
  
  <h5> conclusie </h5>
