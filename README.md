@@ -103,7 +103,7 @@ Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg g
   netzoals het toepassen van statische code analyse en code reviews.
 
    <details>
-   <summary><h4> Code quality </h4></summary>
+   <summary><h4> CI </h4></summary>
    
    Voor code quality heb gekeken naar welke tool ik het best kan gebruiken. PVS studio werd erg aangeraden en daarnaast ook SonarQube[^15]. SonarQube is een SAST tool, Static Application Security Testing, hiermee kun je kwetsbaarheden die veiligheidsproblemen veroorzaken analyseren. Ik heb voor SonarQube gekozen omdat ik doormiddel van SonarCloud ook mijn ci/cd kan opzetten. Zo maak ik al kennis met hoe Sonar werkt en helpt dit mij met het opzetten van ci/cd. Via SonarQube kun je gemakkelijk continuous code quality en code security op je project zetten en deze local laten runnen. Hierbij heb ik het stappenplan gevolgd dat door SonarQube wordt aanbevolen.
    
@@ -155,9 +155,14 @@ maar werkt niet
  
  [^18]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
  
- 
- 
- <h5> End to End testing </h5>
+ ```
+  DOT framework method:
+  - Prototyping
+  ```
+  
+  </details>
+ <details>
+   <summary><h4> End to End testing </h4></summary>
  
  ![image](https://user-images.githubusercontent.com/99249005/206998958-e8df5fa1-34a9-4d82-a93f-ae6477f63bcd.png)
 
@@ -169,7 +174,7 @@ Test of de frontend data krijgt van de backend.
 ![image](https://user-images.githubusercontent.com/99249005/207009755-c23c4e5a-4f40-443d-9dce-312185f90f98.png)
 
 
- ```
+  ```
   DOT framework method:
   - Prototyping
   ```
