@@ -307,15 +307,17 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
 
 ![image](https://user-images.githubusercontent.com/99249005/206152984-0001de7f-40b4-418b-a43b-6718d11c4b67.png)
 
- <h5> Docker </h5>
+ <h5> Azure DevOps </h5>
  
- Voor de CD ga ik mijn website via docker deployen naar azure.
+ Voor de CD ga ik mijn website via azure deployen.
  
  ![image](https://user-images.githubusercontent.com/99249005/206416351-b92c7e9a-d3ae-4be0-a844-3687b5295312.png) [^21]
  
  [^21]: [Bron: waarom failed](https://stackoverflow.com/questions/68405027/how-to-resolve-no-hosted-parallelism-has-been-purchased-or-granted-in-free-tie)
  
 ![image](https://user-images.githubusercontent.com/99249005/207013432-497358f8-e8c2-4233-b63c-f33686e069bc.png)
+
+ ![image](https://user-images.githubusercontent.com/99249005/207033488-1dc9d430-2ec2-4416-80b0-e79e4ddef9a0.png)
 
  
  <h5> conclusie </h5>
