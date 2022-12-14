@@ -103,9 +103,12 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
  
 <h4> Wat zijn de voor en nadelen van een ORM op basis van security? </h4>
 
-<i> Voordelen: </i>
+<i> Voordelen: </i> </br>
+Een ORM heeft meestal een reeks veilige functies te bieden ter bescherming tegen SQL-injectieaanvallen.[^16]
+Use frameworks like Hibernate and Spring Data JPA for the data layer of an application.
 
-<i> Nadelen: </i>
+<i> Nadelen: </i> </br>
+Het is mogelijk dat een web applicatie die ORM-gegenereerde objecten gebruikt, kwetsbaar is voor SQL-injectieaanvallen als methoden onopgeschoonde invoerparameters kunnen accepteren.[^16]
 
 <h4> Prototyping? </h4>
 
@@ -122,6 +125,8 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
  [^13]: [bron: ORM afbeelding](https://www.javatpoint.com/orm-tools-in-java) </br>
  [^14]: [bron: ORM](https://www.hwlibre.com/nl/orm-object-relational-mapping/) </br>
  [^15]: [bron: Java ORM's](https://javabydeveloper.com/orm-object-relational-mapping/) </br>
+ [^16]: [bron: SQL injectie](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.7-Testing_for_ORM_Injection) </br>
+ 
 
   </details>
     
