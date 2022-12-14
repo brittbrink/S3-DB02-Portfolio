@@ -52,12 +52,19 @@ Voor de backend heb ik de taal Java Springboot gekozen. In ons groepsproject heb
 
 
 <details>
-  <summary><h4> Op welke manier kan een ORM de security van mijn web applicatie verbeteren? </h4></summary>
+  <summary><h4> ORM security onderzoek </h4></summary>
+ <h4> Op welke manier kan een ORM de security van mijn web applicatie verbeteren? </h4>
+ 
+ ```
+  DOT framework method:
+  - Survey
+  - Literature study
+  ```
+ 
+Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter gekomen dat ik onderzoek moest gaan doen naar ORM's. Ik wist nog niet goed wat dit was, maar heb er wel van geleerd nadat ik de forms teruggekoppeld kreeg. Zo heb ik uit de forms de functie van een ORM weten te halen. Ik heb dit nog bevestigt door research te doen op het internet.
 
-Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter gekomen dat ik onderzoek moest gaan doen naar ORM's. Ik wist nog niet goed wat dit was, maar heb er wel van geleerd nadat ik de forms teruggekoppeld kreeg. Zo heb ik uit de forms de functie van een ORM weten te halen.
-
- <h5> Wat is een ORM? </h5>
- Een ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom. Ik heb dit nog bevestigt door research te doen op het internet. ORM is een techniek voor het creeëren van een "brug" tussen object georiënteerd programmeren en in de meeste gevallen relationele databases. Anders gezegd, je kan een ORM zien als de laag die object georiënteerd programmeren(OOP) verbindt met relationele databases.[^10]  Een ORM convert gegevens tussen systemen met behulp van programmeertalen[^11]. Bij objectgeoriënteerd programmeren kun je gebruik maken van een ORM library, dit zorgt ervoor dat je bijvoorbeeld niet je hele query hoeft uittetypen met SQL en dus tijd bespaart[^12]. 
+ <h4> Wat is een ORM? </h4>
+ Een ORM staat voor Object Relational Mapping. Dit houdt in dat er via code een database gegenereert kan worden en andersom. ORM is een techniek voor het creeëren van een "brug" tussen object georiënteerd programmeren en in de meeste gevallen relationele databases. Anders gezegd, je kan een ORM zien als de laag die object georiënteerd programmeren(OOP) verbindt met relationele databases.[^10]  Een ORM convert gegevens tussen systemen met behulp van programmeertalen[^11]. Bij objectgeoriënteerd programmeren kun je gebruik maken van een ORM library, dit zorgt ervoor dat je bijvoorbeeld niet je hele query hoeft uittetypen met SQL en dus tijd bespaart[^12]. 
  
  Er zijn verschillende ORM libraries voor verschillende programmeertalen, dit zijn enkele programmeertalen met hun bijpassende ORM library: 
  
@@ -68,41 +75,53 @@ Doormiddel van een forms die we hebben gekregen via Jean-Paul, ben ik erachter g
 ![image](https://user-images.githubusercontent.com/99249005/207557824-bce3d03d-a000-4295-a731-883ca9d9c782.png) [^13]
 
 
-<h5> Waar dient een ORM voor? </h5>
+<h4> Waar dient een ORM voor? </h4>
 
 Wanneer je communiceert met een database met behulp van OOP-talen, moet je verschillende opdrachten uitvoeren, zoals create, read, update en delete (CRUD) van gegevens uit een database. Standaard wordt hier SQL gebruikt voor het uitvoeren van deze opdrachten in relationele databases. Hoewel dat geen slecht idee is, helpen ORM en ORM-tools de interactie tussen relationele databases en verschillende OOP-talen te vereenvoudigen.[^10] 
 Met mapping is het moeilijk om informatie om te zetten om deze aan de database aan te passen of database om te zetten om deze aan de informatie aan te passen. Je kunt mapping automatiseren doormiddel van een ORM. De ORM zorgt ervoor dat het mapping bovendien onafhankelijk maakt van de database die je wilt gebruiken en je kan deze zelfs probleemloos wijzigen.[^14] 
 
- <h5> Welke verschillende Java ORM's zijn er? </h5>
+ <h4> Welke verschillende Java ORM's zijn er? </h4>
  
+ ![image](https://user-images.githubusercontent.com/99249005/207558703-702dc1ff-a802-47a4-8e8e-036492126201.png) [^13]
  
+ Er zijn verschillende ORM tools voor Java beschikbaar, hieronder staan de meest gebruikte.
  
-<h5> Wat zijn de voor en nadelen van een ORM op basis van security? </h5>
+ - <b>Hibernate</b> </br>
+ Hibernate is een Java persistence framework dat de ontwikkeling van Java-applicaties voor interactie met de database vereenvoudigt. Het is een open source, veelgebruikte, lichtgewicht ORM-tool. Hibernate implementeert de specificaties van JPA (Java Persistence API) voor gegevens.
+ 
+ - <b>TopLink</b> </br>
+ TopLink is een ORM-tool ontwikkeld door Oracle voor Java-ontwikkelaars. Het is een vasthoudendframework, het biedt ontwikkel tools en runtime functionaliteiten die het ontwikkelingsproces vergemakkelijken en de functionaliteit vergroten.
+ 
+ - <b>OpenJPA</b> </br>
+ Apache OpenJPA is een Java-persistentieproject van The Apache Software Foundation dat kan worden gebruikt als een stand-alone POJO-persistentielaag of kan worden geïntegreerd in elke Java EE-compatibele container en vele andere lichtgewicht frameworks, zoals Tomcat en Spring.
+ 
+ - <b>MyBatis</b> </br>
+ MyBatis was voorheen bekend als iBatis. Het is ook een open source persistentieraamwerk dat de implementatie van een database vereenvoudigt. MyBatis is anders dan andere ORM-tools. Het belangrijkste verschil tussen MyBatis en andere ORM-tools is dat MyBatis de nadruk legt op het gebruik van SQL, terwijl andere ORM-tools aangepaste querytaal (HQL) gebruiken.
+ 
+ - <b>EclipseLink</b> </br>
+EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd door Eclipse Foundation. Het is een uitbreidbaar raamwerk waarmee Java-ontwikkelaars kunnen communiceren met verschillende gegevensservices, zoals databases, webservices, Object XML-mapping en bedrijfsinformatiesystemen.[^13][^15]
+ 
+<h4> Wat zijn de voor en nadelen van een ORM op basis van security? </h4>
 
-<h5> Prototyping? </h5>
+<i> Voordelen: </i>
 
-Er zijn meerdere technieken die ervoor zorgen dat ORM-code net zo goed presteert als met de hand gecodeerde code. Moderne ORM's bevatten namelijk technieken zoals gretig laden en batchgewijs updaten die ingewikkeld zijn om te implementeren met hand gecodeerde code. Doordat de ORM-code net zo goed presteert als met de hand gecodeerde code maak je geen kosten aan het beheersen en onderhouden van complexe SQL en handgeschreven code[^15].
+<i> Nadelen: </i>
 
-Een probleem bij grotere projecten, is dat de omvang van het databasemodel erg groot is (veel relaties tussen veel modellen). Om 1 gigantische query te doen en dan alles in 1 stap op te halen is niet sneller, zeker niet als je niet altijd alle informatie nodig hebt. De verleiding is groot bij een JDBC-benadering om één gigantische query te gebruiken, omdat het aanzienlijk langer (en meer werk) is om N queries te doen. Met ORM is het een beetje het tegenovergestelde, standaard zijn N queries makkelijker te doen. Alleen kan je hier tegen het N+1 probleem aanlopen, die je wilt vermijden, dit kan je oplossen door de techniek gretig laden toe te passen, die moderne ORM's bevatten[^16][^17]. Echter is het eenvoudiger om het aantal queries te verminderen door tabellen samen te voegen in plaats van queries te splitsen, ORM-prestatieoptimalisatie voelt natuurlijker aan[^15].
+<h4> Prototyping? </h4>
 
- <h5> Conclusie: </h5>
+
+ <h4> Conclusie: </h4>
  Door verschillende technieken presteert ORM-code net zo goed als code die met de hand is gecodeerd. Maar het nadeel van hand gecodeerde code en het schrijven van SQL queries is dat 1 gigantische query, die alles in 1 keer ophaalt, er lang over doet. Een ORM daarintegen gebruikt N queries, waarmee je tegen een N+1 probleem aanloopt. Maar om dit op te lossen bevat een ORM een techniek die dit kan verhelpen. Dit is makkelijker en geeft minimale kosten dan de SQL uit elkaar te pluizen op fouten en de grote van de query, om de performance te maximaliseren. 
  <br></br>
  
-```
-  DOT framework method:
-  - Survey
-  - Literature study
-  ```
+
   
   [^10]: [bron: freecodecamp ORM](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/) </br>
  [^11]: [bron: stackoverflow ORM](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one.) </br>
  [^12]: [bron: wikipedia ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping.) </br> 
  [^13]: [bron: ORM afbeelding](https://www.javatpoint.com/orm-tools-in-java) </br>
  [^14]: [bron: ORM](https://www.hwlibre.com/nl/orm-object-relational-mapping/) </br>
- [^15]: [bron: infoq](https://www.infoq.com/articles/optimizing-orm-performance/) </br>
- [^16]: [bron: inspector](https://inspector.dev/make-your-application-scalable-optimizing-the-orm-performance/) </br>
- [^17]: [bron: chase the devil](https://chasethedevil.github.io/post/use-orm-for-better-performance/) </br>
+ [^15]: [bron: Java ORM's](https://javabydeveloper.com/orm-object-relational-mapping/) </br>
 
   </details>
     
