@@ -374,6 +374,9 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
  
  ![image](https://user-images.githubusercontent.com/99249005/207055356-f8f7393c-b13a-4fb5-956e-63643f2fd994.png)
 
+ ![image](https://user-images.githubusercontent.com/99249005/207617522-c283e04d-6ff3-4838-8c3a-e5d1ec1a7eda.png)
+
+ Maar er wordt niet door mijn code via SonarCloud heen gegaan. De pagina van SonarCloud wordt namelijk niet gerefresht.
  
  <h5> conclusie </h5>
  
