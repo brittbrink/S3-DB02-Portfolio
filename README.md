@@ -378,6 +378,13 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
 
  Maar er wordt niet door mijn code via SonarCloud heen gegaan. De pagina van SonarCloud wordt namelijk niet gerefresht.
  
+ ![image](https://user-images.githubusercontent.com/99249005/207810346-84399479-6e02-444f-90ed-071d6978e90d.png)
+Ik had eerst maven in mijn yml file en dan SonarCloud. Maar ik moet eerst door mijn SonarCloud heen lopen en dan door maven lopen.
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207810120-49931d62-eed4-4c30-98f1-e42badfacd34.png)
+
+ ![image](https://user-images.githubusercontent.com/99249005/207810193-5c509ac6-a9f6-4f88-b186-9a612913a031.png)
+
  <h5> conclusie </h5>
  
  ![image](https://user-images.githubusercontent.com/99249005/206154781-88ae9c4f-4954-466f-b035-74e100b4b982.png)
