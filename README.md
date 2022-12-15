@@ -390,6 +390,14 @@ Dit toegevoegd om de errorcode op te lossen.
  
  ![image](https://user-images.githubusercontent.com/99249005/207867552-18514be1-9335-4689-8e2d-bf4f68ef8551.png)
 
+ Het toevoegen van sonarbuildbreaker zodat wanneer mijn SonarCloud failed, mijn pipeline niet runt.[^24]
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207875430-004b026b-b29c-44ec-bc9a-f6957f846909.png)
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207874709-08938369-60c4-404f-a8ba-e72337aa839d.png)
+ 
+ [^24]: [bron: sonarbuiltbreaker](https://marketplace.visualstudio.com/items?itemName=SimondeLang.sonarcloud-buildbreaker)
+ 
 
  <h5> conclusie </h5>
  
