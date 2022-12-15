@@ -384,10 +384,18 @@ Ik had eerst maven in mijn yml file en dan SonarCloud. Maar ik moet eerst door m
  ![image](https://user-images.githubusercontent.com/99249005/207810120-49931d62-eed4-4c30-98f1-e42badfacd34.png)
 
  ![image](https://user-images.githubusercontent.com/99249005/207810193-5c509ac6-a9f6-4f88-b186-9a612913a031.png)
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207867655-205e674a-4790-4a31-95e7-2c994478646b.png)
+Dit toegevoegd om de errorcode op te lossen.
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/207867552-18514be1-9335-4689-8e2d-bf4f68ef8551.png)
+
 
  <h5> conclusie </h5>
  
  ![image](https://user-images.githubusercontent.com/99249005/206154781-88ae9c4f-4954-466f-b035-74e100b4b982.png)
+
+![image](https://user-images.githubusercontent.com/99249005/207867441-b51a1ec1-eab7-421c-9a9d-caa422db2964.png)
 
  
  ```
