@@ -567,10 +567,15 @@ En hier is mijn interactieve wireframe te zien: </br>
    ![conceptueel model semester3 drawio](https://user-images.githubusercontent.com/99249005/206427273-863be344-f7d8-4639-b93c-268c004b65eb.png)
 
 
-   #### C2 model
+   #### C2 model IP
    ![c2 model drawio](https://user-images.githubusercontent.com/99249005/203966746-67eb1fc8-fe63-466a-a65b-8976f74a5b66.png)
+ 
+ #### C2 model GP
+   ![image](https://user-images.githubusercontent.com/99249005/208912393-608d79a2-1051-44c8-9873-574282a4d481.png)
 
 </details>
+
+
 
 <details>
    <summary><h4> Usability test </h4></summary>
