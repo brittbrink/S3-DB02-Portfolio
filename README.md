@@ -32,6 +32,7 @@
   DOT framework method:
   - Survey
   - Focus group
+  - Usability testing
   ```
 
 *Productbeschrijving:* </br>
@@ -131,8 +132,6 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
 <i> Nadelen: </i> </br>
 ~ Het is mogelijk dat een web applicatie die ORM-gegenereerde objecten gebruikt, kwetsbaar is voor SQL-injectieaanvallen als methoden onopgeschoonde invoerparameters kunnen accepteren.[^16]
 
-<h4> Prototyping? </h4>
-
 
  <h4> Conclusie: </h4>
  Door verschillende technieken presteert ORM-code net zo goed als code die met de hand is gecodeerd. Maar het nadeel van hand gecodeerde code en het schrijven van SQL queries is dat 1 gigantische query, die alles in 1 keer ophaalt, er lang over doet. Een ORM daarintegen gebruikt N queries, waarmee je tegen een N+1 probleem aanloopt. Maar om dit op te lossen bevat een ORM een techniek die dit kan verhelpen. Dit is makkelijker en geeft minimale kosten dan de SQL uit elkaar te pluizen op fouten en de grote van de query, om de performance te maximaliseren. 
@@ -170,7 +169,7 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
    
    Voor code quality heb gekeken naar welke tool ik het best kan gebruiken. PVS studio werd erg aangeraden en daarnaast ook SonarQube[^15]. SonarQube is een SAST tool, Static Application Security Testing, hiermee kun je kwetsbaarheden die veiligheidsproblemen veroorzaken analyseren. Ik heb voor SonarQube gekozen omdat ik doormiddel van SonarCloud ook mijn ci/cd kan opzetten. Zo maak ik al kennis met hoe Sonar werkt en helpt dit mij met het opzetten van ci/cd. Via SonarQube kun je gemakkelijk continuous code quality en code security op je project zetten en deze local laten runnen. Hierbij heb ik het stappenplan gevolgd dat door SonarQube wordt aanbevolen.
    
-<h5> Stappenplan: </h5>
+<h4> Stappenplan: </h4>
 1. Het downloaden van de zip file </br>
 2. Installeren van Java 11 </br>
    <a href='https://user-images.githubusercontent.com/99249005' target='_blank'><img src='https://user-images.githubusercontent.com/99249005/205012992-ea99146b-94a3-4493-89b9-f0999a280c6b.png' border='0' alt='205012992-ea99146b-94a3-4493-89b9-f0999a280c6b' width="450"/></a> </br> [^16]
@@ -277,6 +276,13 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
   
    </details>
    
+   <details>
+   <summary><h4> Testplan </h4></summary>
+ 
+ Testplan opgezet voor het testen van mijn applicatie.
+ 
+   </details>
+   
 ## Leeruitkomst 3: Agile methode
 
    **Leeruitkomst**: Je **kiest** en implementeert de meest geschikte agile software ontwikkelmethode voor jouw softwareproject. 
@@ -364,8 +370,11 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
  Met behulp van deze lean-methodologie worden ontwikkeltijd en middelen geoptimaliseerd. Deze methode is eenvoudig schaalbaar en aanpasbaar aan projecten van elke omvang.
 
  <h5> Conclusie: </h5>
- Op mijn individuele project ga ik de principes toepassen van de agile methode Lean Software Development, zo blijft de kwaliteit van het product goed en kan ik rekening houden met een team en mogelijke klanten. Deze principes zijn vooral ook handig als ik straks in een team moet werken, waar ik niemand ken. Zo zorg ik ervoor dat ik mezelf al kan openstellen en mezelf kan voorbereiden op wat er verwacht wordt van mij.
+ Op mijn individuele project ga ik de principes toepassen van de agile methode Lean Software Development, zo blijft de kwaliteit van het product goed en kan ik rekening houden met een team en mogelijke klanten. Deze principes zijn vooral ook handig als ik straks in een team moet werken, waar ik niemand ken. Zo zorg ik ervoor dat ik mezelf al kan openstellen en mezelf kan voorbereiden op wat er verwacht wordt van mij. </br>
  
+*Reflectie:* 
+Voor mij had ik beter ook met een board of in sprints kunnen werken in samenwerking met Lean. Zo houdt ik structuur in mijn werk en voor mijn docent. Zo had ik sprints kunnen afspreken met mijn docent waarin ik een demo zou geven. Dit zorgt ervoor dat ik deadlines moet halen en meer gestreven werk.
+ </br></br>
  Voor ons groepsproject werken wij op de scrum methode maar gebruiken wij ook Extreme Programming. We zorgen ervoor dat we de feedback die we terugkrijgen van de klant meteen verwerken zodat we up-to-date blijven met de klant en aan hn eisen blijven voldoen. Ook werken we in sprints die beide methodes toepassen. Onze user stories staan in ons Jira board. Elk persoon heeft een user story toegeëigend gekregen, hier gaat hij/zij aan werken. Elke sprint heeft hier user stories toegekend gekregen waar we in die sprint aan gaan werken, zoals in de afbeelding te zien is:
    
    [![2022-11-14.png](https://i.postimg.cc/zDK4gvzw/2022-11-14.png)](https://postimg.cc/grcM9Y6r)
@@ -379,13 +388,18 @@ De letterlijke vertaling van het woord 'Kanban'uit het Japans is "visual bord of
    
    <details>
    <summary><h4> SonarCloud  </h4></summary>
-   
-   Om de CI aan te tonen heb ik SonarCloud gebruikt. Hierbij kijk je naar code quality en als deze dan passed, kun je deze aan een pipeline doorsturen
-[^20]. Op SonarCloud staat de code quality online.
+  
+  ```
+  DOT framework method:
+  - Prototyping
+  ```
+ 
+   Om de CI aan te tonen heb ik SonarCloud gebruikt. Hierbij kijk je naar code quality en als deze dan passed, ben ik van plan deze in mijn pipeline te verwerken[^20]. Zo runt mijn pipeline alleen als de code quality slaagt.
+Het verschil tussen SonarQube en SonarCloud is dat bij SonarCloud de code quality online staat en bij SonarQube local. Ik heb zelf gemerkt dat ik het fijner vind dat mijn code quality online staat zo kan ik deze op een eenvoudige manier in mijn pipeline verwerken. Dit heeft natuurlijk wel gevolgen voor de beveiliging van mijn applicatie.
  
  [^20]: [bron: Pipeline met SonarCloud](https://docs.sonarqube.org/latest/)
    
-   <h5> backend </h5>
+   <h4> Backend </h4>
  
 ![image](https://user-images.githubusercontent.com/99249005/206141380-94326c74-9463-4054-b063-cb7a67a6e4b8.png)
 
@@ -399,11 +413,11 @@ Probleem: Mijn pom.xml file runned op JDK 17 en de build.yml file runned op JDK 
 
 ![image](https://user-images.githubusercontent.com/99249005/206148575-1e38d35c-55b2-4600-bcb1-f55085df7b4d.png)
 
-<h5> frontend </h5>
+<h4> Frontend </h4>
 
 ![image](https://user-images.githubusercontent.com/99249005/206152984-0001de7f-40b4-418b-a43b-6718d11c4b67.png)
 
- <h5> Azure DevOps </h5>
+ <h4> Azure DevOps </h4>
  
  Voor de CD ga ik mijn website via azure deployen.
  
@@ -458,17 +472,12 @@ Dit toegevoegd om de errorcode op te lossen.
  [^24]: [bron: sonarbuiltbreaker](https://marketplace.visualstudio.com/items?itemName=SimondeLang.sonarcloud-buildbreaker)
  
 
- <h5> conclusie </h5>
+ <h4> Conclusie: </h4>
  
  ![image](https://user-images.githubusercontent.com/99249005/206154781-88ae9c4f-4954-466f-b035-74e100b4b982.png)
 
 ![image](https://user-images.githubusercontent.com/99249005/207867441-b51a1ec1-eab7-421c-9a9d-caa422db2964.png)
 
- 
- ```
-  DOT framework method:
-  - Prototyping
-  ```
   
    </details>
 
@@ -505,6 +514,7 @@ Dit toegevoegd om de errorcode op te lossen.
   ```
   DOT framework method:
   - Gap analysis
+  - Usability testing
   ```
 
 De kleuren geel en rood doen ons vooral denken aan eten en wekken eetlust op[^4][^5]. Ik ben daarom voor de kleur oranje gegaan, want geel en rood gemengd maakt oranje.
@@ -548,6 +558,11 @@ En hier is mijn interactieve wireframe te zien: </br>
 <details>
    <summary><h4> Modellen </h4></summary>
    
+  ```
+  DOT framework method:
+  - IT architecture sketching
+  ```
+ 
    #### Conceptueel model
    ![conceptueel model semester3 drawio](https://user-images.githubusercontent.com/99249005/206427273-863be344-f7d8-4639-b93c-268c004b65eb.png)
 
@@ -556,6 +571,17 @@ En hier is mijn interactieve wireframe te zien: </br>
    ![c2 model drawio](https://user-images.githubusercontent.com/99249005/203966746-67eb1fc8-fe63-466a-a65b-8976f74a5b66.png)
 
 </details>
+
+<details>
+   <summary><h4> Usability test </h4></summary>
+ 
+```
+  DOT framework method:
+  - Usability testing
+  ```
+
+</details>
+
    
 ## Leeruitkomst 7: Business processen
 **Leeruitkomst**: Je analyseert en beschrijft **eenvoudige** bedrijfsprocessen die **gerelateerd** zijn aan jouw project.
@@ -567,15 +593,22 @@ En hier is mijn interactieve wireframe te zien: </br>
    <details>
    <summary><h4> Business process </h4></summary>
    
-   <h5> Business process zonder onze app </h5>
+  ```
+  DOT framework method:
+  - Business case exploration
+  ```
+ 
+   <h4> Business process zonder onze app </h4>
   <a href='https://postimg.cc/cgSpZmNz' target='_blank'><img src='https://i.postimg.cc/cgSpZmNz/S3groepsproject-bedrijfsproceswithoutapp.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithoutapp' width="300"/></a>
   
-   <h5> Business process met onze app </h5>
+   <h4> Business process met onze app </h4>
    <a href='https://postimg.cc/2LjgLSyF' target='_blank'><img src='https://i.postimg.cc/2LjgLSyF/S3groepsproject-bedrijfsproceswithapp.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithapp' width="300"/></a>
    
    (Klik op de afbeelding voor scherp beeld)
 
-   
+  <h4> Conclusie: </h4> 
+ 
+ 
    </details>
    
 ## Leeruitkomst 8: Professioneel
@@ -586,7 +619,12 @@ En hier is mijn interactieve wireframe te zien: </br>
    
    <details>
    <summary><h4> Contact </h4></summary>
-   
+  
+ ```
+  DOT framework method:
+  - Peer review
+  ```
+ 
    <h5> Mail contact </h5>
 Het is vanzelfsprekend dat je je stakeholders op de hoogte houdt en als je vragen hebt over designs deze laat weten. Dit doen wij door mail contact te onderhouden. Ik heb de meeste mails geschreven waarbij we vragen hadden of bijvoorbeeld de datum, tijd en locatie van de oplevering konden doorsturen. Hierbij een voorbeeld van één van de mails die verzonden zijn:
 
@@ -596,7 +634,12 @@ Het is vanzelfsprekend dat je je stakeholders op de hoogte houdt en als je vrage
 Ook praat ik regelematig met docenten om zo mijn voortgang te laten zien en vragen te stellen of ik de goede richting in ga.
 
 *insert feedpulse*
-
+ 
+ <h5> Peerreview </h5>
+Nadat we een sprintoplevering hebben afgerond hebben we in ons groepsproject een elkaar feedback gegeven voor die sprint, wat ging goed en wat kon beter. Dit staat vastgelegd in de peerreview.
+ 
+ *insert peerreview*
+ 
 <h5> Documentatie </h5>
 In het afgelopen document heb ik documentatie geschreven die van toepassing is om mijn leerdoelen te halen. Hierbij heb ik onderzoek gedaan. Ik heb hoofd- en deelvragen opgesteld en vanuit hier mijn onderzoek uitgebreid.
 
@@ -605,6 +648,8 @@ In het afgelopen document heb ik documentatie geschreven die van toepassing is o
    
    <details>
    <summary><h4> APA stijl </h4></summary>
+ 
+ Hieronder zie je een voorbeeld hoe APA stijl werkt en hoe je het zou kunnen gebruiken. 
  
    (Bhadwal, n.d.) (Palachuk, 2021) (Trask, 2012) (Shead, 2016)
 
