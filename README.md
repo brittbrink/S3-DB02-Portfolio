@@ -178,39 +178,60 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
  3. Inloggen op localhost:9000
  <!-- ![image](https://user-images.githubusercontent.com/99249005/205012992-ea99146b-94a3-4493-89b9-f0999a280c6b.png) --> 
   
- ![image](https://user-images.githubusercontent.com/99249005/205012912-1e261373-2df8-4a82-81ea-53eb7b61fc19.png) 
+ ![image](https://user-images.githubusercontent.com/99249005/205012912-1e261373-2df8-4a82-81ea-53eb7b61fc19.png) </br>
 
-![image](https://user-images.githubusercontent.com/99249005/205012755-4f9a41b9-d291-4cde-9fc2-1966ea9d2618.png)
+ 4. Kijken of ik al kon doen wat er gevraagd werd.
+
+![image](https://user-images.githubusercontent.com/99249005/205012755-4f9a41b9-d291-4cde-9fc2-1966ea9d2618.png) </br>
+
+ 5. Nee! Eerst stukje code toevoegen in settings.xml file om bij server te komen, maar deze wel eerst vinden.
 
  ![image](https://user-images.githubusercontent.com/99249005/205013808-05278258-0967-4387-b31b-9d0a3234d32c.png)
 
-![image](https://user-images.githubusercontent.com/99249005/205015760-3bcdc85a-6ac6-436f-b388-88041de73dac.png) [^17]
-toegevoegd aan settings.xml file
+![image](https://user-images.githubusercontent.com/99249005/205015760-3bcdc85a-6ac6-436f-b388-88041de73dac.png) [^17] </br>
+6. Bovenstaande voorbeeld toegevoegd aan settings.xml file.
  
-![image](https://user-images.githubusercontent.com/99249005/205019103-4fe79830-cce3-4eff-af0d-a106cb9fe133.png)
+![image](https://user-images.githubusercontent.com/99249005/205019103-4fe79830-cce3-4eff-af0d-a106cb9fe133.png) </br>
 
- ![image](https://user-images.githubusercontent.com/99249005/205019207-d88c13fd-c6ef-46da-845f-930a34335c09.png)
+7. Build failed. Niet correct genoteerd.
 
- ![image](https://user-images.githubusercontent.com/99249005/205020863-8c5f140c-c790-4dd5-a4a2-e7df88e2d04b.png)
-geprobeerd omdat ik building failed kreeg
- ![image](https://user-images.githubusercontent.com/99249005/205021343-b023a3c9-90f2-49ed-a623-9e3b2e1e32ac.png)
-maar werkt niet
+ ![image](https://user-images.githubusercontent.com/99249005/205020863-8c5f140c-c790-4dd5-a4a2-e7df88e2d04b.png) </br>
  
- mvn clean verify sonar:sonar   -Dsonar.projectKey=projectSemester3   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=sqp_f117f63345b04852876bc112ccfebadf139ac331 dit gerund en nu doet ie het wel.
- 
- ![image](https://user-images.githubusercontent.com/99249005/205022109-54d47570-42c8-4d66-9c31-8e30d74bbe9b.png)
+8. Onderzocht wat wel de goede notatie is om build te laten slagen.
 
- De warnings die aangegeven stonden, waren omdat ik mijn recipecontroller nog niet had gepusht naar Git, nadat ik dit heb gedaan kreeg ik geen warnings meer.
+ ![image](https://user-images.githubusercontent.com/99249005/205021343-b023a3c9-90f2-49ed-a623-9e3b2e1e32ac.png) </br>
  
- ![image](https://user-images.githubusercontent.com/99249005/205023630-d4ed66a0-d7f1-46ce-8558-8e7adfb7a423.png)
+9. Nog steeds build failed. Geprobeerd gewoon met spaties ertussen, zoals hieronder:
+ 
+ ```
+ mvn clean verify sonar:sonar   -Dsonar.projectKey=projectSemester3   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=sqp_f117f63345b04852876bc112ccfebadf139ac331 
+ ```
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/205022109-54d47570-42c8-4d66-9c31-8e30d74bbe9b.png) </br>
 
- ![image](https://user-images.githubusercontent.com/99249005/205028198-345ab478-cafb-4af1-b14f-960e99483c85.png)
+10. Build succeeded
+11. Kreeg nog warnings, deze opgelost doormiddel van het pushen van mijn recipecontroller naar git
+
+ ![image](https://user-images.githubusercontent.com/99249005/205023630-d4ed66a0-d7f1-46ce-8558-8e7adfb7a423.png) </br>
+
+12. Er was geen new code dus de coverage was 0.0%. Build failed
+
+ ![image](https://user-images.githubusercontent.com/99249005/205028198-345ab478-cafb-4af1-b14f-960e99483c85.png) </br>
+ 
+ 13. Conditions aangepast zodat hij wel zal slagen.
 
  ![image](https://user-images.githubusercontent.com/99249005/205029177-ec007d95-447e-481a-81c7-8442efeef76d.png) [^18]
 
- ![image](https://user-images.githubusercontent.com/99249005/205031379-3b194f68-7886-43d2-a7d6-ba9d9a7d91ba.png)
+ ![image](https://user-images.githubusercontent.com/99249005/205031379-3b194f68-7886-43d2-a7d6-ba9d9a7d91ba.png)</br>
+ 
+ 14. Voor security ook conditions aangepast zodat hij wel zal slagen, ondanks dat het niet veilig is.
 
- ![image](https://user-images.githubusercontent.com/99249005/205031521-811d0b45-927e-4e60-9570-e00df19dfc24.png)
+ ![image](https://user-images.githubusercontent.com/99249005/205031521-811d0b45-927e-4e60-9570-e00df19dfc24.png)</br>
+ 
+ 15. Build passed 
+
+  ![image](https://user-images.githubusercontent.com/99249005/205019207-d88c13fd-c6ef-46da-845f-930a34335c09.png) </br>
+ 
 
   [^15]: [bron: keuze SonarQube](https://www.softwaretestinghelp.com/code-quality-tools/) </br>
  [^16]: [bron: SonarQube opzetten](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/) </br>
@@ -219,7 +240,7 @@ maar werkt niet
  [^18]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
  
  <h4> Conclusie: </h4>
- Ik heb SonarQube opgezet, maar heb in mijn CI/CD SonarCloud verwerkt. Ik vond uiteindelijk SonarCloud makkelijker om op te zetten en makkelijker te verwerken in mijn CD vandaar de keuze om niet SonarQube te gebruiken. Ik heb hier wel tijd aan besteed en ben ik tegen dingen  aangekomen waarvan ik heb geleerd zoals, in mijn code heb ik mijn apiKey voor de externe API hardcoded in mijn code staan. Hierdoor faald mijn SonarQube door security. Om te zorgen dat hij toch zal slagen ondanks dat ik weet dat mijn security qua apiKey niet verstandig is heb ik de security rating omlaag gedaan, zo slaagd hij wel op security.
+ Ik heb SonarQube opgezet, maar heb in mijn CI/CD SonarCloud verwerkt. Ik vond uiteindelijk SonarCloud makkelijker om op te zetten en makkelijker te verwerken in mijn CD vandaar de keuze om niet SonarQube te gebruiken. Ik heb hier wel tijd aan besteed en ben ik tegen dingen aangekomen waarvan ik heb geleerd zoals, in mijn code heb ik mijn apiKey voor de externe API hardcoded in mijn code staan. Hierdoor faald mijn SonarQube door security. Om te zorgen dat hij toch zal slagen ondanks dat ik weet dat mijn security qua apiKey niet verstandig is heb ik de security rating omlaag gedaan, zo slaagd hij wel op security. En kan hij uiteindelijk wel deployen via CD.
  
  
  
@@ -228,22 +249,30 @@ maar werkt niet
  <details>
    <summary><h4> End to End testing </h4></summary>
  
- 
   ```
   DOT framework method:
   - Prototyping
   ```
-  
+ Om mijn front-end en of ik data krijg van de back-end te testen, maak ik gebruik van end-to-end testing. Dit was heel makkelijk op te zetten. Zo kan ik als ik testen heb geschreven automatisch zien of de knoppen doen wat ik wil dat ze doen en of ik überhaupt data krijg van de back-end. Mijn end-to-end testen maak ik via cypress
+ 
+ 
+ 1. Opzetten end-to-end testing:
  
  ![image](https://user-images.githubusercontent.com/99249005/206998958-e8df5fa1-34a9-4d82-a93f-ae6477f63bcd.png)
 
 ![image](https://user-images.githubusercontent.com/99249005/206999171-2470190f-0b87-41a2-8e52-dbf5fc4f7520.png)
-
+ 
+ 2. Test opgezet of de frontend data krijgt van de backend.
+ 
+ ![image](https://user-images.githubusercontent.com/99249005/208903413-d3a0506e-cdc4-4375-a8d6-8bc1d31be055.png)
+ 
+ 3. Specifiek in test neerzetten dat ik http://localhost8080/persons wil testen. Anders krijg je error 404: not found.
+ 
 ![image](https://user-images.githubusercontent.com/99249005/207006006-402c7eb2-43b3-4b11-af54-6d64135726e4.png)
-Test of de frontend data krijgt van de backend.
 
+ 4. Test geslaagd.
+ 
 ![image](https://user-images.githubusercontent.com/99249005/207009755-c23c4e5a-4f40-443d-9dce-312185f90f98.png)
-
 
   
    </details>
