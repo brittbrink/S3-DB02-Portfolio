@@ -26,7 +26,13 @@
 
   
   <details>
-  <summary><h4> Mijn webapplicatie </h4></summary>
+  <summary><h4> Individueel project </h4></summary>
+
+ ```
+  DOT framework method:
+  - Survey
+  - Focus group
+  ```
 
 *Productbeschrijving:* </br>
 Met mijn webapplicatie kun je je verbrandde calorieën ingeven en worden er vervolgens recepten opgehaald die deze calorieën bevatten. Zo eet je de calorieën die je verbrand hebt via een maaltijd. Daarnaast kun je inloggen om je favorieten te bekijken die je hebt aangeklikt en krijg je een historie te zien met de recepten die je al is hebt gezien. Hierdoor worden deze recepten niet meer voor jou gegenereerd, zodat er variatie blijft.
@@ -43,13 +49,28 @@ Voor de backend heb ik de taal Java Springboot gekozen. In ons groepsproject heb
 [^2]: [bron: stackoverflow survey](https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies)
 [^3]: [bron: hackr.io](https://hackr.io/blog/c-sharp-vs-java#:~:text=Java%20is%20class%2Dbased%20and,oriented%20languages%20with%20strong%20communities.)
 
+
+</details>
+
+<details>
+  <summary><h4> Groepsproject </h4></summary>
+
  ```
   DOT framework method:
   - Survey
   - Focus group
   ```
-</details>
 
+*Productbeschrijving:* </br>
+Als groep gaan wij een horeca zelf-service applicatie maken voor onze opdrachtgever, InfoSupport. Het is de bedoeling dat de gasten die in het restaurant komen eten, zelf hun eten kunnen bestellen via een app, die wij mogen gaan creëren. Het is belangrijk dat de gasten orders kunnen bestellen, met eten en/of drinken en deze daarna ook kunnen afrekenen. Van de bestelling wordt het eetgedeelte naar de keuken gestuurd en het drinkgedeelte naar de bar. De keuken kan deze gerechten toe eigenen, zodat de bar weet wanneer gerechten klaar zijn om uit te serveren. De bar moet ook bestellingen kunnen aanpassen en naar een andere tafel kunnen zetten.
+
+*Frontend taal:* </br>
+De opdrachtgever liet ons erg vrij in het maken van de keuze voor de programmeertalen. Hierbij hebben we voor de frontend React gekozen. Dit vonden wij er erg clean uitzien en omdat wij allemaal nog niet zo bekend waren met deze frontend taal vonden we dit een mooie uitdaging om aan te gaan. Hierbij is onze keuze ook voort gekomen doordat we een javascript frontend moesten gebruiken, Angular, Vue.js en React. React was de snelste taal om te leren en ook het hoogst aangeschreven.
+
+*Backend taal:* </br>
+Voor de backend taal wilde we graag in Java Springboot programmeren. We hadden allemaal ervaring in C# maar wilde onze kennis uitbreiden naar meer talen. Ook was dit voor ons fijn met de frontend taal en sloot het erg op elkaar aan. Java Springboot werkt fantastisch met de gekozen database, MySQL. We hebben Java Springboot ook gekozen voor de securti die het met zich meebrengt.
+
+</details>
 
 <details>
   <summary><h4> ORM security onderzoek </h4></summary>
@@ -142,6 +163,11 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
    <details>
    <summary><h4> CI </h4></summary>
    
+   ```
+  DOT framework method:
+  - Prototyping
+  ```
+   
    Voor code quality heb gekeken naar welke tool ik het best kan gebruiken. PVS studio werd erg aangeraden en daarnaast ook SonarQube[^15]. SonarQube is een SAST tool, Static Application Security Testing, hiermee kun je kwetsbaarheden die veiligheidsproblemen veroorzaken analyseren. Ik heb voor SonarQube gekozen omdat ik doormiddel van SonarCloud ook mijn ci/cd kan opzetten. Zo maak ik al kennis met hoe Sonar werkt en helpt dit mij met het opzetten van ci/cd. Via SonarQube kun je gemakkelijk continuous code quality en code security op je project zetten en deze local laten runnen. Hierbij heb ik het stappenplan gevolgd dat door SonarQube wordt aanbevolen.
    
 <h5> Stappenplan: </h5>
@@ -192,14 +218,22 @@ maar werkt niet
  
  [^18]: [bron: Quality gate](http://localhost:9000/quality_gates/show/AYTNM-CN-fACkukBFFLB) </br>
  
- ```
-  DOT framework method:
-  - Prototyping
-  ```
+ <h4> Conclusie: </h4>
+ Ik heb SonarQube opgezet, maar heb in mijn CI/CD SonarCloud verwerkt. Ik vond uiteindelijk SonarCloud makkelijker om op te zetten en makkelijker te verwerken in mijn CD vandaar de keuze om niet SonarQube te gebruiken. Ik heb hier wel tijd aan besteed en ben ik tegen dingen  aangekomen waarvan ik heb geleerd zoals, in mijn code heb ik mijn apiKey voor de externe API hardcoded in mijn code staan. Hierdoor faald mijn SonarQube door security. Om te zorgen dat hij toch zal slagen ondanks dat ik weet dat mijn security qua apiKey niet verstandig is heb ik de security rating omlaag gedaan, zo slaagd hij wel op security.
+ 
+ 
+ 
   
   </details>
  <details>
    <summary><h4> End to End testing </h4></summary>
+ 
+ 
+  ```
+  DOT framework method:
+  - Prototyping
+  ```
+  
  
  ![image](https://user-images.githubusercontent.com/99249005/206998958-e8df5fa1-34a9-4d82-a93f-ae6477f63bcd.png)
 
@@ -211,10 +245,6 @@ Test of de frontend data krijgt van de backend.
 ![image](https://user-images.githubusercontent.com/99249005/207009755-c23c4e5a-4f40-443d-9dce-312185f90f98.png)
 
 
-  ```
-  DOT framework method:
-  - Prototyping
-  ```
   
    </details>
    
