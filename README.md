@@ -134,7 +134,7 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
 
 
  <h4> Conclusie: </h4>
- Door verschillende technieken presteert ORM-code net zo goed als code die met de hand is gecodeerd. Maar het nadeel van hand gecodeerde code en het schrijven van SQL queries is dat 1 gigantische query, die alles in 1 keer ophaalt, er lang over doet. Een ORM daarintegen gebruikt N queries, waarmee je tegen een N+1 probleem aanloopt. Maar om dit op te lossen bevat een ORM een techniek die dit kan verhelpen. Dit is makkelijker en geeft minimale kosten dan de SQL uit elkaar te pluizen op fouten en de grote van de query, om de performance te maximaliseren. 
+  In mijn applicatie heb ik gebruik gemaakt van de ORM framework Hibernate, zo is de grootste kans dat ik SQL injection vermijd. Dit framework werkt goed samen met mijn backend taal Java Spring Boot.
  <br></br>
  
 
