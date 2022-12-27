@@ -126,7 +126,7 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
 <h4> Wat zijn de voor en nadelen van een ORM op basis van security? </h4>
 
 <i> Voordelen: </i> </br>
-~ Een ORM heeft meestal een reeks veilige functies te bieden ter bescherming tegen SQL-injectieaanvallen.[^16] </br>
+~ Een ORM heeft meestal een reeks veilige functies te bieden ter bescherming tegen SQL-injectieaanvallen.[^16][^10] </br>
 ~ Voor het vermijden van SQL injection kun je gebruik maken van de frameworks Hibernate en Spring Data JPA voor de datalaag van de applicatie.[^17]
 
 <i> Nadelen: </i> </br>
@@ -615,7 +615,7 @@ En hier is mijn interactieve wireframe te zien: </br>
    (Klik op de afbeelding voor scherp beeld)
 
   <h4> Conclusie: </h4> 
- 
+Onze app zorgt ervoor dat het restaurant ethish verantwoord is, zo hoeven er minder mensen te komen werken en dus als bedrijf minder uittebetalen.
  
    </details>
    
