@@ -281,6 +281,9 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
  
  Testplan opgezet voor het testen van mijn applicatie.
  
+ ![image](https://user-images.githubusercontent.com/99249005/210544754-375a734c-4f9a-45d2-b160-97665bf7fde2.png)
+
+ 
    </details>
    
 ## Leeruitkomst 3: Agile methode
@@ -492,6 +495,7 @@ Dit toegevoegd om de errorcode op te lossen.
    <details>
    <summary><h4> Culturele verschillen </h4></summary>
    
+   <h4> Wat zijn culturele verschillen? </h4>
 
 
    </details>
@@ -499,6 +503,7 @@ Dit toegevoegd om de errorcode op te lossen.
    <details>
    <summary><h4> Ethiek </h4></summary>
    
+    <h4> Wat is ethiek? </h4>
 
 
    </details>
