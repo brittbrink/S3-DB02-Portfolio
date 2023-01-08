@@ -603,15 +603,16 @@ En hier is mijn interactieve wireframe te zien: </br>
    #### Conceptueel model IP
    ![conceptueel model semester3 drawio](https://user-images.githubusercontent.com/99249005/206427273-863be344-f7d8-4639-b93c-268c004b65eb.png)
 
-   #### C2 model IP
+   #### C4 model level 2 IP
    ![c2 model drawio](https://user-images.githubusercontent.com/99249005/203966746-67eb1fc8-fe63-466a-a65b-8976f74a5b66.png)
  
- #### C2 model GP
+ #### C4 model level 2 GP
    ![image](https://user-images.githubusercontent.com/99249005/208912393-608d79a2-1051-44c8-9873-574282a4d481.png)
  
   #### Databasediagram GP
    ![databasediagram GP](https://user-images.githubusercontent.com/99249005/208915764-61a184fd-22c2-4d31-83da-32058e2da0c9.jpeg)
 
+ Als we kijken naar de C4 modellen van IP en GP valt op dat er bij mijn individuele applicatie wordt uitgegaan van een user, iedereen die gebruik maakt van mijn applicatie, die maar een enkele web applicatie gebruikt. Terwijl wij voor ons groepsproject verschillende users hebben die een eigen pagina beheren en alleen die pagina te zien krijgen. Dit werkt in principe hetzelfde maar maken we in ons groepsproject verschillende web applicaties voor de juiste persoon. Verder maak ik in IP gebruik van een externe API waar ik informatie uithaal die ik laat zien in mijn applicatie. Dit hebben we in ons groepsproject niet, maar als een restaurant een eigen API heeft voor hun menu zou dit wel geïntegreert kunnen worden.
 
 </details>
 
@@ -642,17 +643,18 @@ En hier is mijn interactieve wireframe te zien: </br>
   DOT framework method:
   - Business case exploration
   ```
+ Ik heb voor ons groepsproject een business proces gemaakt die het globale beeld geeft wat onze app zou doen in het algemeen van het restaurant. Waarnaar ik eerst een business proces heb gemaakt waarin wordt getoond hoe het restaurant zou lopen als onze app er niet zou zijn. En een proces waarin het restaurant wel onze app hanteert.
  
-   <h4> Business process zonder onze app </h4>
-  <a href='https://postimg.cc/cgSpZmNz' target='_blank'><img src='https://i.postimg.cc/cgSpZmNz/S3groepsproject-bedrijfsproceswithoutapp.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithoutapp' width="300"/></a>
-  
-   <h4> Business process met onze app </h4>
-   <a href='https://postimg.cc/2LjgLSyF' target='_blank'><img src='https://i.postimg.cc/2LjgLSyF/S3groepsproject-bedrijfsproceswithapp.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithapp' width="300"/></a>
-   
-   (Klik op de afbeelding voor scherp beeld)
+ <!--  <h4> Business process zonder onze app </h4> -->
+  <a href='https://user-images.githubusercontent.com/99249005/211197791-4859c979-4ad1-4364-a871-790c0c4f4bb9.jpg' target='_blank'><img src='https://user-images.githubusercontent.com/99249005/211197791-4859c979-4ad1-4364-a871-790c0c4f4bb9.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithoutapp' width="700"/></a>
+ 
 
+   <!-- <h4> Business process met onze app </h4> -->
+   <a href='https://user-images.githubusercontent.com/99249005/211197896-f256b7fd-bb75-4809-9518-47aaa2a2f17f.jpg' target='_blank'><img src='https://user-images.githubusercontent.com/99249005/211197896-f256b7fd-bb75-4809-9518-47aaa2a2f17f.jpg' border='0' alt='S3groepsproject-bedrijfsproceswithapp' width="700"/></a>
+  
+ 
   <h4> Conclusie: </h4> 
-Onze app zorgt ervoor dat het restaurant ethish verantwoord is, zo hoeven er minder mensen te komen werken en dus als bedrijf minder uittebetalen.
+Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken.
  
    </details>
    
