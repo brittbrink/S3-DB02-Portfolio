@@ -523,12 +523,44 @@ Dit toegevoegd om de errorcode op te lossen.
    - Long-term orientation
    - Indulgence vs restraint
    
+<h4>Power distance</h4>
+
+Deze dimensie heeft betrekking op de gelijkwaardigheid tussen individuen in een samenleving. Machtsafstand wordt gedefinieerd als de mate waarin de leden die het minst machtig zijn van de instellingen en organisaties in een land verwachten en accepteren dat de macht ongelijk verdeeld is. De fundamentele vraag hier is hoe een samenleving omgaat met ongelijkheden tussen mensen.[^27] 
+Mensen in samenlevingen met een grote machtsafstand accepteren een hiërarchische volgorde waarin iedereen een plaats heeft die geen verdere rechtvaardiging vereist. Mensen in samenlevingen met kleine machtsafstanden streven naar machtsverevening en eisen rechtvaardiging voor machtsongelijkheden.[^28] 
+
+In de afbeelding is te zien 
+
+<img src="https://user-images.githubusercontent.com/99249005/211203692-01cb7ad9-776c-406e-9421-f41af774569f.png"  width="500"/> [^29]
+
+
+<h4>Individualism vs. collectivism</h4>
+
+<h4>Masculinity vs. femininity</h4>
+
+<h4>Uncertainty avoidance</h4>
+
+<h4>Long-term orientation</h4>
+
+<h4>Indulgence vs restraint</h4>
+
+
    
    <h4> Voorbeeld uit het echte leven op gebied van culturele verschillen </h4>
    
    
 [^25]: [bron: cultuur betekenis](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/cultuur)
 [^26]: [bron: wat is cultuur](https://news.hofstede-insights.com/news/what-do-we-mean-by-culture)
+[^27]: [bron: power distance insight](https://www.hofstede-insights.com/models/national-culture/)
+[^28]: [bron: power distance](https://gedragvandeconsument.nl/hofstede-dimensies/)
+[^29]: [bron: image power distance](https://www.hofstede-insights.com/country-comparison/denmark,the-netherlands,singapore,slovakia/)
+
+[^30]: [bron: wat is cultuur](https://news.hofstede-insights.com/news/what-do-we-mean-by-culture)
+[^31]: [bron: power distance insight](https://www.hofstede-insights.com/models/national-culture/)
+[^32]: [bron: power distance](https://gedragvandeconsument.nl/hofstede-dimensies/)
+[^33]: [bron: wat is cultuur](https://news.hofstede-insights.com/news/what-do-we-mean-by-culture)
+[^34]: [bron: power distance insight](https://www.hofstede-insights.com/models/national-culture/)
+[^35]: [bron: power distance](https://gedragvandeconsument.nl/hofstede-dimensies/)
+
 
    </details>
    
