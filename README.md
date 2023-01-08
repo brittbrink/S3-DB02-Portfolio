@@ -495,8 +495,40 @@ Dit toegevoegd om de errorcode op te lossen.
    <details>
    <summary><h4> Culturele verschillen </h4></summary>
    
-   <h4> Wat zijn culturele verschillen? </h4>
+   <!-- Wat is cultuur? -->
+   
+   Cultuur is een groep mensen met dezelfde normen, waarden en gewoonten.[^25] Een cultuur bestaat uit meerdere lagen die gezien kunnen worden als de lagen van een ui. In de buitenste laag vind je *symbolen*, items zoals eetgewoonten, voedsel, vlaggen en kleuren. De laag daarna bestaat uit *helden*, dit zijn mensen die een voorbeeld zijn voor anderen om wat ze gedaan hebben. De laatste laag en het dichtst bij de kern zijn de *rituelen*, terugkerende gebeurtenissen die ons onderbewustzijn vormen.[^26] De kern van de ui zijn de *values*, gevoelens over wat wel en wat niet als goed of slecht moet worden beschouwd. </br>
+   Values kunnen worden gemanifesteerd (zichtbaar voor de buitenstaander) door de verschillende praktijken; symbolen, helden en rituelen.
+  
+  <img src="https://user-images.githubusercontent.com/99249005/211190241-7738775b-3837-4c05-a1f3-ab8dec570d5d.png" data-canonical-src="https://user-images.githubusercontent.com/99249005/211190241-7738775b-3837-4c05-a1f3-ab8dec570d5d.png" width="200" height="200"> </br>
 
+   <pre>
+   <b> Verschillende betekenissen van cultuur: </b>
+   
+   "The programming of the human mind by which one group of people distinguishes itself from another group." G. Hofstede
+   
+   "Culture is communication" (E.T. Hall)
+   
+   "Culture is how things are done here" (J. Mole)
+   
+   "How we organize the experience of the world around us" (M. Bennett) </pre>
+   
+   <h4> Welke culturele verschillen zijn er? </h4>
+   
+   Er zijn 6 dimensies in Hofstede's cultural dimensions theorie:
+   - Power distance
+   - Individualism vs. collectivism
+   - Masculinity vs. femininity
+   - Uncertainty avoidance 
+   - Long-term orientation
+   - Indulgence vs restraint
+   
+   
+   <h4> Voorbeeld uit het echte leven op gebied van culturele verschillen </h4>
+   
+   
+[^25]: [bron: cultuur betekenis](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/cultuur)
+[^26]: [bron: wat is cultuur](https://news.hofstede-insights.com/news/what-do-we-mean-by-culture)
 
    </details>
    
