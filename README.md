@@ -520,8 +520,6 @@ Dit toegevoegd om de errorcode op te lossen.
    - Individualism vs. collectivism
    - Masculinity vs. femininity
    - Uncertainty avoidance 
-   - Long-term orientation
-   - Indulgence vs restraint
    
 <h4>Power distance</h4>
 
@@ -538,10 +536,6 @@ In de afbeelding is te zien
 <h4>Masculinity vs. femininity</h4>
 
 <h4>Uncertainty avoidance</h4>
-
-<h4>Long-term orientation</h4>
-
-<h4>Indulgence vs restraint</h4>
 
 
    
@@ -568,6 +562,8 @@ In de afbeelding is te zien
    <summary><h4> Ethiek </h4></summary>
    
     <h4> Wat is ethiek? </h4>
+
+<!-- Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken. -->
 
 
    </details>
@@ -632,6 +628,8 @@ En hier is mijn interactieve wireframe te zien: </br>
   - IT architecture sketching
   ```
  
+ Ik heb voor mijn eigen project een beeld gecreeërd hoe ik mijn app 
+ 
    #### Conceptueel model IP
    ![conceptueel model semester3 drawio](https://user-images.githubusercontent.com/99249005/206427273-863be344-f7d8-4639-b93c-268c004b65eb.png)
 
@@ -686,7 +684,7 @@ En hier is mijn interactieve wireframe te zien: </br>
   
  
   <h4> Conclusie: </h4> 
-Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken.
+In het business process zonder de app is te zien hoe het personeel alle orders moet opnemen aan de tafel en hiermee veel tijd kwijt is om alle tafels af te lopen om ervoor te zorgen dat alles goed naar de keuken wordt gestuurd.  Met onze app besparen we tijd met het opnemen van bestellingen, alle tafels kunnen tegelijk bestellingen plaatsen. Er kunnen wel degelijk fouten gemaakt worden als het personeel de klant niet goed heeft verstaan of verkeerd begrijpt wat de klant bedoeld. Met onze app zorgen we ervoor dat er kan worden bespaart op personeel en dus minder uitgaven aan personeelsloon is.
  
    </details>
    
