@@ -279,7 +279,7 @@ EclipseLink is de open source Eclipse Persistence Services-tool geïntroduceerd 
    <details>
    <summary><h4> Testplan </h4></summary>
  
- Testplan opgezet voor het testen van mijn applicatie.
+Ik heb een testplan opgezet waarin ik een beschrijving geef over wat de test inhoud, hoe je deze test zou kunnen uitvoeren en wat de test als resultaat zou moeten geven als de beschrijving van de test wil aantonen. Dit werkt voor mij omdat ik dan goed op papier heb wat ik wil dat mijn applicatie doet en zo makkelijk kan reflecteren als de applicatie niet doet wat ik wil.
  
  ![image](https://user-images.githubusercontent.com/99249005/210544754-375a734c-4f9a-45d2-b160-97665bf7fde2.png)
 
@@ -526,7 +526,7 @@ Dit toegevoegd om de errorcode op te lossen.
 Deze dimensie heeft betrekking op de gelijkwaardigheid tussen individuen in een samenleving. Machtsafstand wordt gedefinieerd als de mate waarin de leden die het minst machtig zijn van de instellingen en organisaties in een land verwachten en accepteren dat de macht ongelijk verdeeld is. De fundamentele vraag hier is hoe een samenleving omgaat met ongelijkheden tussen mensen.[^27] 
 Mensen in samenlevingen met een grote machtsafstand accepteren een hiërarchische volgorde waarin iedereen een plaats heeft die geen verdere rechtvaardiging vereist. Mensen in samenlevingen met kleine machtsafstanden streven naar machtsverevening en eisen rechtvaardiging voor machtsongelijkheden.[^28] 
 
-In de afbeelding is te zien 
+In de afbeelding is te zien dat Nederland, met 38, onder het gemiddelde ligt op power distance.  
 
 <img src="https://user-images.githubusercontent.com/99249005/211203692-01cb7ad9-776c-406e-9421-f41af774569f.png"  width="500"/> [^29]
 
