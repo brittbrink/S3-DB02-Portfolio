@@ -526,12 +526,15 @@ Dit toegevoegd om de errorcode op te lossen.
 Deze dimensie heeft betrekking op de gelijkwaardigheid tussen individuen in een samenleving. Machtsafstand wordt gedefinieerd als de mate waarin de leden die het minst machtig zijn van de instellingen en organisaties in een land verwachten en accepteren dat de macht ongelijk verdeeld is. De fundamentele vraag hier is hoe een samenleving omgaat met ongelijkheden tussen mensen.[^27] 
 Mensen in samenlevingen met een grote machtsafstand accepteren een hiërarchische volgorde waarin iedereen een plaats heeft die geen verdere rechtvaardiging vereist. Mensen in samenlevingen met kleine machtsafstanden streven naar machtsverevening en eisen rechtvaardiging voor machtsongelijkheden.[^28] 
 
-In de afbeelding is te zien dat Nederland, met 38, onder het gemiddelde ligt op power distance.  
+In de afbeelding is te zien dat Nederland, met 38, onder het gemiddelde ligt op power distance. Wat de Nederlandse stijl dan kenmerkt: zelfstandig zijn, gelijke rechten, leidinggevenden toegangelijk, coachend leider. De macht is gedecentraliseerd en managers rekenen op de ervaring van hun teamleden. Medewerkers verwachten te worden geraadpleegd. Controle wordt niet gewaardeerd en de houding ten opzichte van managers is informeel en op voornaam gebaseerd. Communicatie is direct en participatief. 
 
 <img src="https://user-images.githubusercontent.com/99249005/211203692-01cb7ad9-776c-406e-9421-f41af774569f.png"  width="500"/> [^29]
 
-
 <h4>Individualism vs. collectivism</h4>
+
+De hoge kant van deze dimensie, Individualisme genaamd, kan worden gedefinieerd als een voorkeur voor een losjes verbonden sociaal kader waarin van individuen wordt verwacht dat ze alleen voor zichzelf en hun naaste familie zorgen.
+
+Het tegenovergestelde, collectivisme, vertegenwoordigt een voorkeur voor een hecht kader in de samenleving waarin individuen kunnen verwachten dat hun familieleden of leden van een bepaalde groep voor hen zorgen in ruil voor onvoorwaardelijke loyaliteit. De positie van een samenleving op deze dimensie wordt weerspiegeld in de vraag of het zelfbeeld van mensen wordt gedefinieerd in termen van 'ik' of 'wij'.
 
 <h4>Masculinity vs. femininity</h4>
 
