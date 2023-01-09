@@ -560,11 +560,15 @@ In de afbeelding is te zien dat Nederland, met 38, onder het gemiddelde ligt op 
    
    <details>
    <summary><h4> Ethiek </h4></summary>
-   
     <h4> Wat is ethiek? </h4>
 
-<!-- Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken. -->
+ 
+ <h4> Toepassen van ethiek </h4>
 
+ - TICT tool
+ - Business process
+ 
+ <!-- Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken. -->
 
    </details>
    
