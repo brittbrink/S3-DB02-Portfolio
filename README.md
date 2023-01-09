@@ -536,12 +536,16 @@ In deze dimensie wordt onderzocht in welke mate het zelfbeeld van de mens wordt 
 
 Uit de diagram blijkt dat Nederland het individualisme hanteert en ieder dus voor zichzelf en hun naaste familie zorgt. Voor Costa Rica geld het tegenovergestelde, zij verwachten als individu dat hun familieleden voor hen zorgen en in ruil daarvoor tonen zij onvoorwaardelijke loyaliteit.
 
-![image](https://user-images.githubusercontent.com/99249005/211298381-1092d559-5bbb-4d5d-a7d8-8374559f3073.png)
+<img src="https://user-images.githubusercontent.com/99249005/211298381-1092d559-5bbb-4d5d-a7d8-8374559f3073.png"  width="500"/> [^29]
 
 
 <h4>Masculinity vs. femininity</h4>
 
-Deze dimensie onderzoekt wat mensen motiveert, de wil om de beste te zijn (masculiniteit) of houden van wat je doet (femininiteit). 
+Deze dimensie onderzoekt wat mensen motiveert, de wil om de beste te zijn (masculiniteit) of houden van wat je doet (femininiteit). In de zakelijke context wordt mannelijkheid versus vrouwelijkheid soms ook wel gerelateerd aan "stoere versus tedere" culturen.
+
+De mannelijke kant van deze dimensie vertegenwoordigt een voorkeur in de samenleving voor prestatie, heldhaftigheid, assertiviteit en materiële beloningen voor succes. De samenleving als geheel is competitiever. Het tegendeel, Vrouwelijkheid, staat voor een voorkeur voor samenwerking, bescheidenheid, zorg voor de zwakken en kwaliteit van leven.
+
+
 
 <h4>Uncertainty avoidance</h4>
 
