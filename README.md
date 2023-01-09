@@ -532,11 +532,16 @@ In de afbeelding is te zien dat Nederland, met 38, onder het gemiddelde ligt op 
 
 <h4>Individualism vs. collectivism</h4>
 
-De hoge kant van deze dimensie, Individualisme genaamd, kan worden gedefinieerd als een voorkeur voor een losjes verbonden sociaal kader waarin van individuen wordt verwacht dat ze alleen voor zichzelf en hun naaste familie zorgen.
+In deze dimensie wordt onderzocht in welke mate het zelfbeeld van de mens wordt gedefinieerd als individualistisch (ik) of collectivistisch (wij). In individualistische samenlevingen wordt verondersteld dat men voor zichzelf en alleen hun directe familie zorgt. In collectivistische samenlevingen behoort men tot groepen die voor elkaar zorgen in ruil voor loyaliteit. 
 
-Het tegenovergestelde, collectivisme, vertegenwoordigt een voorkeur voor een hecht kader in de samenleving waarin individuen kunnen verwachten dat hun familieleden of leden van een bepaalde groep voor hen zorgen in ruil voor onvoorwaardelijke loyaliteit. De positie van een samenleving op deze dimensie wordt weerspiegeld in de vraag of het zelfbeeld van mensen wordt gedefinieerd in termen van 'ik' of 'wij'.
+Uit de diagram blijkt dat Nederland het individualisme hanteert en ieder dus voor zichzelf en hun naaste familie zorgt. Voor Costa Rica geld het tegenovergestelde, zij verwachten als individu dat hun familieleden voor hen zorgen en in ruil daarvoor tonen zij onvoorwaardelijke loyaliteit.
+
+![image](https://user-images.githubusercontent.com/99249005/211298381-1092d559-5bbb-4d5d-a7d8-8374559f3073.png)
+
 
 <h4>Masculinity vs. femininity</h4>
+
+Deze dimensie onderzoekt wat mensen motiveert, de wil om de beste te zijn (masculiniteit) of houden van wat je doet (femininiteit). 
 
 <h4>Uncertainty avoidance</h4>
 
