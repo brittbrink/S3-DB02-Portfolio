@@ -547,7 +547,7 @@ De mannelijke kant van deze dimensie vertegenwoordigt een voorkeur in de samenle
 
 In de diagram is te zien dat Nederland over het algemeen een hele lage masculiniteit heeft en heeft meer een voorkeur voor samenwerking, bescheidenheid en kwaliteit van leven. Japan daarentegen zijn competitiever, voorkeur voor prestatie, heldhaftigheid en materiële beloningen voor succes.
 
-<img src="https://user-images.githubusercontent.com/99249005/211497890-2a26088a-6f2b-4d88-96c4-586119d6f6f4.png"  width="500"/> [^29]
+<img src="https://user-images.githubusercontent.com/99249005/211523020-820353f5-e1c7-43a2-ac51-5e0f53db98b2.png"  width="500"/> [^29]
 
 
 <h4>Uncertainty avoidance</h4>
@@ -564,7 +564,7 @@ Nederland ligt net iets boven het gemiddelde en houds zich meer vast aan rigide 
    
    Mijn vader is een software engineer en voor z'n werk gaat hij eens per jaar voor 3 weken naar India om daar workshops te geven. Met deze workshops is het de bedoeling om ze uit te leggen wat de menier is die papa hanteert om te coderen. Papa komt dan vaak met verhalen thuis dat de Indiërs erg graag luisteren naar wat papa te zeggen heeft, maar zodra hij vraagt of iemand snapt wat hij heeft gezegd, zag hij altijd knikkende hoofden die zeiden dat ze het allemaal begrepen. Omdat hun cultuur inhoudt dat het onbeschoft is om te zeggen dat je iets niet begrijpt tegen diegene die hun iets aan het leren is. Papa zal dan ook vragen aan een Indiër of hij kan uitleggen wat papa heeft gezegd, maar vaak kunnen ze dat niet omdat ze het niet begrijpen. 
    
-   Hierbij speelt de masculiniteit uit het Hofstede's cultural dimensions theorie een rol. 
+   Hierbij speelt de masculiniteit uit het Hofstede's cultural dimensions theorie een rol. Indiërs hebben een hogere masculiniteit score.
    
    
 [^25]: [bron: cultuur betekenis](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/cultuur)
