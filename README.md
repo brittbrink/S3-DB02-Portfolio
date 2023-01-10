@@ -608,6 +608,9 @@ In India is te zien dat hun score relatief laag is met 26, hier zijn mensen in d
  <h4> Toepassen van ethiek </h4>
 
  - TICT tool
+ Met behulp van canvas heb ik de hulp tool gebruikt om te laten zien dat ik heb nagedacht over de ethische aspecten die komen kijken in ons groepsproject.
+ ![image](https://user-images.githubusercontent.com/99249005/211637485-d2e4bcdf-d11b-4697-87e5-090b5d4cd0d6.png)
+
  - Business process </br>
   Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken. <a href='https://github.com/brittbrink/S3-DB02-Portfolio#leeruitkomst-7-business-processen'>Zie business process</a>
  
@@ -708,6 +711,12 @@ En hier is mijn interactieve wireframe te zien: </br>
   - Usability testing
   ```
 
+ Om ons groepsproject te verbeteren hebbben we een usability test uitgevoerd. Hiermee laten we mogelijke klanten testen of ze de app bruikbaar vinden en wat er verbetert kan worden. We hebben 2 mensen de app laten testen; iemand die het algemene concept van de app kent en iemand die niks van de app wist.
+ 
+ Hieruit volgde dat de gebruiker die het algemene concept kende de navbar niet heel duidelijk vond maar wel wist dat het knoppen waren waar op gedrukt kon worden, integenstelling tot de andee gebruiker die dacht dat dat een soort logo was en niet knoppen die konden navigeren. Dit nemen wij op in ons project en gaan ervoor orgen dat er in ieder geval titels komen te staan, om te zorgen dat duidelijk is wat het is en onze landingspagina veranderen naar informatie over wat de knoppen precies doen en dat het knoppen zijn. Verder vond de gebruiker die nog niks van de app wist het erg jammer dat je geen feedback kreeg over hoe lang het eten nog duurde en/of hoe ver het eten al klaar is. 
+ 
+ Als laatste vinden beide gebruikers dat de app erg erg netjes uitziet, alsof je bij een  restaurant zit en dat is het doel van de app. We zijn erg tevreden en passen de feedback puntjes toe.
+ 
 </details>
 
    
