@@ -520,6 +520,8 @@ Dit toegevoegd om de errorcode op te lossen.
    - Individualism vs. collectivism
    - Masculinity vs. femininity
    - Uncertainty avoidance 
+   - Long term orientation
+   - Indulgence vs restraint
    
 <h4>Power distance</h4>
 
@@ -547,8 +549,7 @@ De mannelijke kant van deze dimensie vertegenwoordigt een voorkeur in de samenle
 
 In de diagram is te zien dat Nederland over het algemeen een hele lage masculiniteit heeft en heeft meer een voorkeur voor samenwerking, bescheidenheid en kwaliteit van leven. Japan daarentegen zijn competitiever, voorkeur voor prestatie, heldhaftigheid en materiële beloningen voor succes.
 
-<img src="https://user-images.githubusercontent.com/99249005/211523020-820353f5-e1c7-43a2-ac51-5e0f53db98b2.png"  width="500"/> [^29]
-
+<img src="https://user-images.githubusercontent.com/99249005/211532796-952dfd86-fa3c-4df5-aa11-2f0ad8bd9b66.png"  width="500"/> [^29]
 
 <h4>Uncertainty avoidance</h4>
 
@@ -559,12 +560,23 @@ Landen met een sterke uncertainty avoidance index houden vast aan rigide geloofs
 Nederland ligt net iets boven het gemiddelde en houds zich meer vast aan rigide geloofs- en gedragscodes. Polen is daar nog strenger in. Singapore heeft dat daarentegen helemaal niet.
 
 <img src="https://user-images.githubusercontent.com/99249005/211500398-8aa03aa7-85a1-416f-bd4f-2b0d58bdca94.png"  width="500"/> [^29]
+
+<h4>Indulgence vs restraint</h4>
+
+Deze dimensie onderzoekt de mate waarin mensen proberen hun verlangen en impulsen te beheersen, gebaseerd op de manier waarop ze zijn opgevoed. Terughoudendheid gaat gepaard met de mate waarop er sociale controle is binnen een samenleving. 
+
+Mensen in Nederland met een score van 68, tonen over het algemeen de bereidheid om hun impulsen en verlangens met betrekking tot genieten van het leven en plezier te realiseren. Ze zijn positief ingesteld en neigen naar optimisme. Bovendien hechten ze meer belang aan vrije tijd, doen ze wat ze willen en geven ze geld uit zoals ze willen.
+
+In India is te zien dat hun score relatief laag is met 26, hier zijn mensen in die samenleving terughoudend. Bevrediging van behoeften wordt onderdrukt en gereguleerd door middel van strikte sociale normen.
+
+<img src="https://user-images.githubusercontent.com/99249005/211532231-55984475-13ca-4f12-9ae8-dbeb2b57ec50.png"  width="500"/> [^29]
+
    
    <h4> Voorbeeld uit het echte leven op gebied van culturele verschillen </h4>
    
-   Mijn vader is een software engineer en voor z'n werk gaat hij eens per jaar voor 3 weken naar India om daar workshops te geven. Met deze workshops is het de bedoeling om ze uit te leggen wat de menier is die papa hanteert om te coderen. Papa komt dan vaak met verhalen thuis dat de Indiërs erg graag luisteren naar wat papa te zeggen heeft, maar zodra hij vraagt of iemand snapt wat hij heeft gezegd, zag hij altijd knikkende hoofden die zeiden dat ze het allemaal begrepen. Omdat hun cultuur inhoudt dat het onbeschoft is om te zeggen dat je iets niet begrijpt tegen diegene die hun iets aan het leren is. Papa zal dan ook vragen aan een Indiër of hij kan uitleggen wat papa heeft gezegd, maar vaak kunnen ze dat niet omdat ze het niet begrijpen. 
+   Mijn vader is een software engineer en voor z'n werk gaat hij eens per jaar voor 3 weken naar India om daar workshops te geven. Met deze workshops is het de bedoeling om ze uit te leggen wat de manier is die papa hanteert om te coderen. Papa komt dan vaak met verhalen thuis dat de Indiërs erg graag luisteren naar wat papa te zeggen heeft, maar zodra hij vraagt of iemand snapt wat hij heeft gezegd, zag hij altijd knikkende hoofden die zeiden dat ze het allemaal begrepen. Hierbij zijn de mannen overpowered en zie je weinig vrouwen. Hun cultuur houdt in dat het onbeschoft is om te zeggen dat je iets niet begrijpt tegen diegene die hun iets aan het leren is. Papa zal dan ook vragen aan een Indiër of hij kan uitleggen wat papa heeft gezegd, maar vaak kunnen ze dat niet omdat ze het niet begrijpen. 
    
-   Hierbij speelt de masculiniteit uit het Hofstede's cultural dimensions theorie een rol. Indiërs hebben een hogere masculiniteit score.
+   Hierbij speelt de terughoudendheid uit het Hofstede's cultural dimensions theorie een rol. Indiërs hebben een lagere indulgence score. Ze zijn teughoudend. Nederland daarentegen neigt naar optimisme. Ze hechten meer belang aan vrije tijd, doen ze wat ze willen en geven geld uit zoals ze willen. Vanwege de stricte normen in de cultuur avn India is het onbeschoft om 'nee' te zeggen en zijn op dat gebied erg terughoudend.
    
    
 [^25]: [bron: cultuur betekenis](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/cultuur)
@@ -572,14 +584,6 @@ Nederland ligt net iets boven het gemiddelde en houds zich meer vast aan rigide 
 [^27]: [bron: power distance insight](https://www.hofstede-insights.com/models/national-culture/)
 [^28]: [bron: power distance](https://gedragvandeconsument.nl/hofstede-dimensies/)
 [^29]: [bron: image power distance](https://www.hofstede-insights.com/country-comparison/denmark,the-netherlands,singapore,slovakia/)
-
-[^30]: [bron: wat is cultuur](https://news.hofstede-insights.com/news/what-do-we-mean-by-culture)
-[^31]: [bron: power distance insight](https://www.hofstede-insights.com/models/national-culture/)
-[^32]: [bron: power distance](https://gedragvandeconsument.nl/hofstede-dimensies/)
-[^33]: [bron: wat is cultuur](https://news.hofstede-insights.com/news/what-do-we-mean-by-culture)
-[^34]: [bron: power distance insight](https://www.hofstede-insights.com/models/national-culture/)
-[^35]: [bron: power distance](https://gedragvandeconsument.nl/hofstede-dimensies/)
-
 
    </details>
    
