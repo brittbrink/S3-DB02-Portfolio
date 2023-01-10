@@ -564,7 +564,7 @@ Nederland ligt net iets boven het gemiddelde en houds zich meer vast aan rigide 
    
    Mijn vader is een software engineer en voor z'n werk gaat hij eens per jaar voor 3 weken naar India om daar workshops te geven. Met deze workshops is het de bedoeling om ze uit te leggen wat de menier is die papa hanteert om te coderen. Papa komt dan vaak met verhalen thuis dat de Indiërs erg graag luisteren naar wat papa te zeggen heeft, maar zodra hij vraagt of iemand snapt wat hij heeft gezegd, zag hij altijd knikkende hoofden die zeiden dat ze het allemaal begrepen. Omdat hun cultuur inhoudt dat het onbeschoft is om te zeggen dat je iets niet begrijpt tegen diegene die hun iets aan het leren is. Papa zal dan ook vragen aan een Indiër of hij kan uitleggen wat papa heeft gezegd, maar vaak kunnen ze dat niet omdat ze het niet begrijpen. 
    
-   
+   Hierbij speelt de masculiniteit uit het Hofstede's cultural dimensions theorie een rol. 
    
    
 [^25]: [bron: cultuur betekenis](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/cultuur)
