@@ -545,13 +545,26 @@ Deze dimensie onderzoekt wat mensen motiveert, de wil om de beste te zijn (mascu
 
 De mannelijke kant van deze dimensie vertegenwoordigt een voorkeur in de samenleving voor prestatie, heldhaftigheid, assertiviteit en materiële beloningen voor succes. De samenleving als geheel is competitiever. Het tegendeel, Vrouwelijkheid, staat voor een voorkeur voor samenwerking, bescheidenheid, zorg voor de zwakken en kwaliteit van leven.
 
+In de diagram is te zien dat Nederland over het algemeen een hele lage masculiniteit heeft en heeft meer een voorkeur voor samenwerking, bescheidenheid en kwaliteit van leven. Japan daarentegen zijn competitiever, voorkeur voor prestatie, heldhaftigheid en materiële beloningen voor succes.
+
+<img src="https://user-images.githubusercontent.com/99249005/211497890-2a26088a-6f2b-4d88-96c4-586119d6f6f4.png"  width="500"/> [^29]
 
 
 <h4>Uncertainty avoidance</h4>
 
+Uncertainty avoidance heeft te maken met de manier waarop een gemeenschap omgaat met het feit dat de toekomst altijd onbekend is: moeten we proberen te toekomst te beheersen of het gewoon laten gebeuren? Deze dubbelzinnigheid brengt angst. Verschillende culturen hebben op verschillende manieren geleerd om te gaan met deze angst.
 
+Landen met een sterke uncertainty avoidance index houden vast aan rigide geloofs- en gedragscodes en tolereren onorthodox gedrag en ideeën niet. Zwakke uncertainty avoidance index-samenlevingen hebben een meer ontspannen houding waarin praktijk belangrijker is dan principes.
+
+Nederland ligt net iets boven het gemiddelde en houds zich meer vast aan rigide geloofs- en gedragscodes. Polen is daar nog strenger in. Singapore heeft dat daarentegen helemaal niet.
+
+<img src="https://user-images.githubusercontent.com/99249005/211500398-8aa03aa7-85a1-416f-bd4f-2b0d58bdca94.png"  width="500"/> [^29]
    
    <h4> Voorbeeld uit het echte leven op gebied van culturele verschillen </h4>
+   
+   Mijn vader is een software engineer en voor z'n werk gaat hij eens per jaar voor 3 weken naar India om daar workshops te geven. Met deze workshops is het de bedoeling om ze uit te leggen wat de menier is die papa hanteert om te coderen. Papa komt dan vaak met verhalen thuis dat de Indiërs erg graag luisteren naar wat papa te zeggen heeft, maar zodra hij vraagt of iemand snapt wat hij heeft gezegd, zag hij altijd knikkende hoofden die zeiden dat ze het allemaal begrepen. Omdat hun cultuur inhoudt dat het onbeschoft is om te zeggen dat je iets niet begrijpt tegen diegene die hun iets aan het leren is. Papa zal dan ook vragen aan een Indiër of hij kan uitleggen wat papa heeft gezegd, maar vaak kunnen ze dat niet omdat ze het niet begrijpen. 
+   
+   
    
    
 [^25]: [bron: cultuur betekenis](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/cultuur)
