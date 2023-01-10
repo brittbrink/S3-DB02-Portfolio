@@ -589,16 +589,35 @@ In India is te zien dat hun score relatief laag is met 26, hier zijn mensen in d
    
    <details>
    <summary><h4> Ethiek </h4></summary>
-    <h4> Wat is ethiek? </h4>
-
+ <!--   <h4> Wat is ethiek? </h4> -->
  
+ Ethiek is een systeem van "morele principes", anders gezegd is ethiek ‘kritisch nadenken over wat (moreel) goed is om te doen’.[^30] 
+ 
+ Ethische code en professionele praktijk voor software-engineering kent 8 principes:
+ 1. Publiek - Software-engineers handelen in overeenstemming met het algemeen belang.
+ 2. Klant en werkgever - Software-ingenieurs zullen handelen op een manier die in het beste belang is van hun klant en werkgever, in overeenstemming met het algemeen belang.
+ 3. Product - Software-engineers moeten ervoor zorgen dat hun producten en gerelateerde aanpassingen voldoen aan de hoogst mogelijke professionele normen.
+ 4. Oordeel - Software-engineers moeten hun professionele oordeel integer en onafhankelijk houden.
+ 5. Beheer - Managers en leiders van software-engineering onderschrijven en bevorderen een ethische benadering van het beheer van softwareontwikkeling en -onderhoud.
+ 6. Beroep - Software-ingenieurs zullen de integriteit en reputatie van het beroep bevorderen in overeenstemming met het algemeen belang.
+ 7. Collega's - Software-ingenieurs zullen hun collega's eerlijk behandelen en ondersteunen.
+ 8. Zelf - Software-ingenieurs nemen deel aan een leven lang leren met betrekking tot de uitoefening van hun beroep en bevorderen een ethische benadering van de uitoefening van het beroep.[^31]
+ 
+ <img src="https://user-images.githubusercontent.com/99249005/211567614-a25be2e3-b427-47d0-95e5-5830fc954f3d.png"  width="500"/> [^32]
+
  <h4> Toepassen van ethiek </h4>
 
  - TICT tool
- - Business process
+ - Business process </br>
+  Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken. <a href='https://github.com/brittbrink/S3-DB02-Portfolio#leeruitkomst-7-business-processen'>Zie business process</a>
  
- <!-- Onze app zorgt ervoor dat het restaurant ethish verantwoord is, je ziet steeds meer dat technologie taken van de mens overneemt. Door dit initiatief bespaart het bedrijf op mankracht en dus op uitgaven aan loon voor personeel. Als personeel zou er een mogelijkheid kunnen zijn dat je niet meer hoeft te komen werken en dus je baan verliest, of in ieder geval minder nodig bent als personeel om te komen werken. -->
+ <!--  -->
 
+ [^30]: [bron: ethiek definitie](https://www.knmg.nl/advies-richtlijnen/ethische-toolkit/verdiepen/begrippen-2/ethiek-6.htm)
+ [^31]: [bron: ethiek principes](https://ethics.acm.org/code-of-ethics/software-engineering-code/)
+ [^32]: [bron: ethiek afbeelding](https://www.utwente.nl/nieuws/2017/10/224945/ethische-basis-voor-verantwoorde-innovatie)
+ 
+ 
    </details>
    
 ## Leeruitkomst 6: Vereisten en ontwerp
