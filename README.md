@@ -771,12 +771,13 @@ Het is vanzelfsprekend dat je je stakeholders op de hoogte houdt en als je vrage
 <h5> Feedpulse </h5>
 Ook praat ik regelematig met docenten om zo mijn voortgang te laten zien en vragen te stellen of ik de goede richting in ga.
 
-*insert feedpulse*
+![image](https://user-images.githubusercontent.com/99249005/212628813-098a767f-6c4b-46e4-bd7c-0a8e3cd8813e.png)
  
  <h5> Peerreview </h5>
-Nadat we een sprintoplevering hebben afgerond hebben we in ons groepsproject een elkaar feedback gegeven voor die sprint, wat ging goed en wat kon beter. Dit staat vastgelegd in de peerreview.
- 
- *insert peerreview*
+Nadat we een sprintoplevering hebben afgerond hebben we in ons groepsproject een elkaar feedback gegeven voor die sprint, wat ging goed en wat kon beter. Dit staat vastgelegd in de peerreview: </br>
+
+
+![image](https://user-images.githubusercontent.com/99249005/212629364-36d62285-a210-4d12-a183-2f0b703fda7b.png)
  
 <h5> Documentatie </h5>
 In het afgelopen document heb ik documentatie geschreven die van toepassing is om mijn leerdoelen te halen. Hierbij heb ik onderzoek gedaan. Ik heb hoofd- en deelvragen opgesteld en vanuit hier mijn onderzoek uitgebreid.
